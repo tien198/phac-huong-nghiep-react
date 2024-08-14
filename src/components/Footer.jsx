@@ -59,11 +59,11 @@ function FooterBody() {
                         <div className='flex flex-col justify-between gap-3'>
                             <p>Địa chỉ: 215 - 217, Lê Hồng Phong, P. 8, Tp. Vũng Tàu</p>
                             <p>
-                                <span class="text-orange-300">Điện thoại: </span>
+                                <span className="text-orange-300">Điện thoại: </span>
                                 <a href="tel:0933058338" target="_blank">(+84) 933 058 338</a>
                             </p>
                             <p>
-                                <span class="text-orange-300">Email: </span>
+                                <span className="text-orange-300">Email: </span>
                                 <a target="_blank" href="mailto: nqphac@gmai.com">nqphac@gmai.com</a>
                             </p>
                         </div>
@@ -87,9 +87,9 @@ function FooterBody() {
 
 function FooterFoot() {
     return (
-        <div class="bg-black py-8 text-white">
+        <div className="bg-black py-8 text-white">
             <div className="mx-4">
-                <div class="container mx-auto flex justify-between content-center">
+                <div className="container mx-auto flex justify-between content-center">
                     <p className='text-gray-500'>Copyright © 2024</p>
                     <a href="tel:0933058338" target="_blank">(+84) 933 058 338</a>
                 </div>

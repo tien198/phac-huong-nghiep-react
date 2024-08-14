@@ -3,31 +3,30 @@ import { Link } from 'react-router-dom';
 import ImgCard from '../components/ImgCard';
 import FallingSnow from '../components/FallingSnow';
 
-
 const careerOpportunities = [
     {
         title: 'Xuất khẩu lao động Hàn Quốc',
-        imgUrl: '/src/assets/imgs/index/xuat-khau-lao-dong-han-quoc.jpeg',
+        imgUrl: './imgs/index/xuat-khau-lao-dong-han-quoc.jpeg',
         url: ''
     },
     {
         title: 'Xuất khẩu lao động Nhật Bản',
-        imgUrl: '/src/assets/imgs/index/xuat-khau-lao-dong-nhat-ban.jpg',
+        imgUrl: './imgs/index/xuat-khau-lao-dong-nhat-ban.jpg',
         url: ''
     },
     {
         title: 'Xuất khẩu lao động Đài Loan',
-        imgUrl: '/src/assets/imgs/index/xuat-khau-lao-dong-dai-loan.jpg',
+        imgUrl: './imgs/index/xuat-khau-lao-dong-dai-loan.jpg',
         url: ''
     },
     {
         title: 'Cơ hội việc làm Châu Âu',
-        imgUrl: '/src/assets/imgs/index/xuat-khau-lao-dong-chau-au.jpeg',
+        imgUrl: './imgs/index/xuat-khau-lao-dong-chau-au.jpeg',
         url: ''
     },
     {
         title: 'Cơ hội việc làm Singapore',
-        imgUrl: '/src/assets/imgs/index/tu-van-du-hoc-singapore.jpeg',
+        imgUrl: './imgs/index/tu-van-du-hoc-singapore.jpeg',
         url: ''
     },
 
@@ -36,57 +35,60 @@ const careerOpportunities = [
 const studyAbroad = [
     {
         title: 'Hàn Quốc',
-        imgUrl: '/src/assets/imgs/index/tu-van-du-hoc-han-quoc.jpeg',
+        imgUrl: './imgs/index/tu-van-du-hoc-han-quoc.jpeg',
         url: ''
     },
     {
         title: 'Singapore',
-        imgUrl: '/src/assets/imgs/index/tu-van-du-hoc-singapore.jpeg',
+        imgUrl: './imgs/index/tu-van-du-hoc-singapore.jpeg',
         url: ''
     },
     {
         title: 'Đài Loan',
-        imgUrl: '/src/assets/imgs/index/tu-van-du-hoc-dai-loan.jpeg',
+        imgUrl: './imgs/index/tu-van-du-hoc-dai-loan.jpeg',
         url: ''
     },
     {
         title: 'Úc',
-        imgUrl: '/src/assets/imgs/index/',
+        imgUrl: './imgs/index/',
         url: ''
     },
     {
         title: 'Canada',
-        imgUrl: '/src/assets/imgs/index/',
+        imgUrl: './imgs/index/',
         url: ''
     },
     {
         title: 'Mỹ',
-        imgUrl: '/src/assets/imgs/index/',
+        imgUrl: './imgs/index/',
         url: ''
     },
     {
         title: 'Du học nghề Đức',
-        imgUrl: '/src/assets/imgs/index/',
+        imgUrl: './imgs/index/',
         url: ''
     },
 ]
 
 function Home(props) {
     return (
-        <div className='text-center mt-7'>
-            <div className=' bg-gray-50 py-7 '>
-                <Heading>CƠ HỘI VIỆC LÀM</Heading>
-                <Panel itemsList={careerOpportunities} className=' ' />
-            </div>
+        <>
+            <ImgCard imgUrl='./imgs/index/slider.jpg' className='bg-top bg-no-repeat bg-cover w-full h-96' />
+            <div className='text-center mt-7'>
+                <div className=' bg-gray-50 py-7 '>
+                    <Heading>CƠ HỘI VIỆC LÀM</Heading>
+                    <Panel itemsList={careerOpportunities} className=' ' />
+                </div>
 
-            <div>
-                <Heading>CÁC CHƯƠNG TRÌNH DU HỌC VÀ HỌC BỔNG HẤP DẪN</Heading>
-                <Panel itemsList={studyAbroad} />
+                <div>
+                    <Heading>CÁC CHƯƠNG TRÌNH DU HỌC VÀ HỌC BỔNG HẤP DẪN</Heading>
+                    <Panel itemsList={studyAbroad} />
+                </div>
+                <FallingSnow>
+                    <Introduce />
+                </FallingSnow>
             </div>
-            <FallingSnow>
-                <Introduce />
-            </FallingSnow>
-        </div>
+        </>
     );
 }
 
@@ -115,12 +117,12 @@ function Panel({ itemsList, className, ...props }) {
 
 function Introduce() {
     return (
-        <div class="container mx-auto py-20 text-white text-start leading-8">
+        <div className="container mx-auto py-20 text-white text-start leading-8">
             <div className='mx-4'>
 
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10">
-                    <div class="flex flex-col gap-4">
-                        <h2 class="uppercase font-semibold text-xl">Lời giới thiệu</h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10">
+                    <div className="flex flex-col gap-4">
+                        <h2 className="uppercase font-semibold text-xl">Lời giới thiệu</h2>
                         <p>
                             Chào mừng bạn đến với trang Tư vấn du học, hướng nghiệp BRVT của chúng tôi - nơi bạn có thể khám
                             phá các cơ hội học tập và làm việc tại các quốc gia trên khắp thế giới một cách dễ dàng và đầy
@@ -142,11 +144,11 @@ function Introduce() {
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen></iframe>  */}
-                        <p class='uppercase font-semibold text-xl'>
+                        <p className='uppercase font-semibold text-xl'>
                             Tại trang web của chúng tôi, bạn sẽ được trải nghiệm:
                         </p>
                         <p>
-                            <strong class="fs-5">Tư vấn chuyên sâu</strong>: Đội ngũ tư vấn của chúng tôi sẽ hỗ trợ bạn từ
+                            <strong className="fs-5">Tư vấn chuyên sâu</strong>: Đội ngũ tư vấn của chúng tôi sẽ hỗ trợ bạn từ
                             việc định
                             hướng ngành học theo
                             sở trường, rồi lựa chọn chương trình học, trường đại học phù hợp đến thủ tục xin visa và các vấn
@@ -155,20 +157,20 @@ function Introduce() {
                             cá nhân của bạn
                         </p>
                         <p>
-                            <strong class="fs-5">Thông tin đa dạng</strong>: Chúng tôi cung cấp thông tin chi tiết về các
+                            <strong className="fs-5">Thông tin đa dạng</strong>: Chúng tôi cung cấp thông tin chi tiết về các
                             quốc gia và
                             trường học hàng đầu
                             trên thế giới, giúp bạn hiểu rõ hơn về môi trường học tập và làm việc tại đó. Song song đó, các
                             thị trường lao động và công việc mới được cập nhật thường xuyên, nhanh nhất.
                         </p>
                         <p>
-                            <strong class="fs-5">Hỗ trợ tận tình</strong>: Đội ngũ của chúng tôi luôn sẵn lòng lắng nghe và
+                            <strong className="fs-5">Hỗ trợ tận tình</strong>: Đội ngũ của chúng tôi luôn sẵn lòng lắng nghe và
                             giải đáp mọi
                             thắc mắc của bạn,
                             giúp bạn cảm thấy tự tin và yên tâm khi bước vào hành trình mới
                         </p>
                         <p>
-                            <strong class="fs-5">Tin tức và bài viết chia sẻ kinh nghiệm</strong>: Chúng tôi cập nhật những
+                            <strong className="fs-5">Tin tức và bài viết chia sẻ kinh nghiệm</strong>: Chúng tôi cập nhật những
                             thông tin mới
                             nhất về xu hướng
                             du học và Cơ hội việc làm, cùng những chia sẻ từ những người đã trải qua hành trình đó trước
@@ -176,7 +178,7 @@ function Introduce() {
                         </p>
                     </div>
                 </div>
-                <p class="my-5 text-center mt-10">
+                <p className="my-5 text-center mt-10">
                     <i>
                         Hãy để chúng tôi là người bạn đồng hành đáng tin cậy trong cuộc hành trình mới của bạn. Đến với
                         chúng tôi, bạn không chỉ là một học viên hay người lao động, mà còn là một phần của cộng đồng đa
