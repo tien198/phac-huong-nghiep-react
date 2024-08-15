@@ -11,19 +11,19 @@ const introduce = [
 
 const legalInfor = [
     `<p class="text-center p-5 "><span>Phác <span class="text-main">Hướng nghiệp</span></span> hiện đang là đại diện chính thức của ba tổ chức Cơ hội việc làm có vốn điều lệ lên đến 10 tỷ đồng.<br /> Dưới đây là các giấy tờ pháp lý liên quan:</p>`,
-    `<div class="container  mb-5">
+    `<div class="container py-8">
         <p class="m-4">Công ty NGUỒN NHÂN LỰC QUỐC GIA:</p>
         <iframe src="./docs/DKKD - TVNNLQG.pdf" style="width:100%; height:80vh;" frameborder="0"></iframe>
     </div>`,
-    `<div class="container  mb-5">
+    `<div class="container py-8">
         <p class="m-4">Công ty CUNG ỨNG VÀ PHÁT TRIỂN NHÂN LỰC AN BÌNH:</p>
         <iframe src="./docs/Cty An Bình chuyên Sin.pdf" style="width:100%; height:80vh;" frameborder="0"></iframe>
     </div>`,
-    `<div class="container  mb-5">
+    `<div class="container py-8">
         <p class="m-4">Quyết định về việc thành lập văn phòng tư vấn tiếp nhận hồ sơ từ <br /><b>Tập Đoàn AN DƯƠNG</b> gửi Trung Tâm Dịch vụ việc làm tỉnh BÀ RỊA - VŨNG TÀU:</p>
         <iframe src="./docs/TẬP ĐOÀN AN DƯƠNG.pdf" style="width:100%; height:80vh;" frameborder="0"></iframe>
     </div>`,
-    `<div class="container  mb-5">
+    `<div class="container py-8">
         <p class="m-4">Thư giới thiệu từ <b>Tập Đoàn AN DƯƠNG</b> gửi <br /><b>SỞ LAO ĐỘNG TB&XH - Trung Tâm Dịch vụ việc làm BÀ RỊA - VŨNG TÀU:</b></p>
         <iframe src="./docs/CV 2162 GIOI THIEU CONG TY CP PT TAP DOAN AN DUONG.pdf" style="width:100%; height:80vh;" frameborder="0"></iframe>
     </div>`,
@@ -62,7 +62,7 @@ function ContentPanel({ htmlContents }) {
     })
     return (
         <div className="container mx-auto text-center text-base py-7 leading-7">
-            <div ref={contentDiv} className='mx-4 '>
+            <div ref={contentDiv} className='mx-4 flex flex-col gap-4'>
 
             </div>
         </div>
