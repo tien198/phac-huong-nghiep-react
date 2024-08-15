@@ -7,6 +7,9 @@ import {
 } from "react-router-dom"
 import './index.css'
 import Home from './pages/Home.jsx'
+import About from './pages/About.jsx'
+import CareerOpportunities from './pages/CareerOpportunities.jsx'
+import StudyAbroad from './pages/StudyAbroad.jsx'
 
 const router = createBrowserRouter([
   {
@@ -17,14 +20,20 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home />,
       },
+      {
+        path: '/gioi-thieu',
+        element: <About />
+      },
+      {
+        path: '/co-hoi-viec-lam',
+        element: <CareerOpportunities />
+      },
+      {
+        path: '/tu-van-du-hoc',
+        element: <StudyAbroad />
+      }
     ],
   },
-
-  {
-    path: '/news',
-    element: <h1>News</h1>
-  },
-
 ]);
 
 createRoot(document.getElementById('root')).render(

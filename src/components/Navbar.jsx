@@ -5,15 +5,15 @@ import Logo from './Logo';
 const navList = [
     {
         li: 'Giới thiệu',
-        url: '/'
+        url: '/gioi-thieu'
     },
     {
         li: 'Cơ hội việc làm',
-        url: '/'
+        url: '/co-hoi-viec-lam'
     },
     {
         li: 'Tư vấn du học',
-        url: '/'
+        url: '/tu-van-du-hoc'
     },
     {
         li: 'Cơ hội tại Úc và Canada',

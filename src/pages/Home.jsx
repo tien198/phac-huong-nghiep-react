@@ -1,81 +1,21 @@
 import React, { useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import Panel from '../components/Panel';
 import ImgCard from '../components/ImgCard';
 import FallingSnow from '../components/FallingSnow';
+import Heading from '../components/Heading';
 
-const careerOpportunities = [
-    {
-        title: 'Xuất khẩu lao động Hàn Quốc',
-        imgUrl: './imgs/index/xuat-khau-lao-dong-han-quoc.jpeg',
-        url: ''
-    },
-    {
-        title: 'Xuất khẩu lao động Nhật Bản',
-        imgUrl: './imgs/index/xuat-khau-lao-dong-nhat-ban.jpg',
-        url: ''
-    },
-    {
-        title: 'Xuất khẩu lao động Đài Loan',
-        imgUrl: './imgs/index/xuat-khau-lao-dong-dai-loan.jpg',
-        url: ''
-    },
-    {
-        title: 'Cơ hội việc làm Châu Âu',
-        imgUrl: './imgs/index/xuat-khau-lao-dong-chau-au.jpeg',
-        url: ''
-    },
-    {
-        title: 'Cơ hội việc làm Singapore',
-        imgUrl: './imgs/index/tu-van-du-hoc-singapore.jpeg',
-        url: ''
-    },
+import { Link } from 'react-router-dom';
 
-]
-
-const studyAbroad = [
-    {
-        title: 'Hàn Quốc',
-        imgUrl: './imgs/index/tu-van-du-hoc-han-quoc.jpeg',
-        url: ''
-    },
-    {
-        title: 'Singapore',
-        imgUrl: './imgs/index/tu-van-du-hoc-singapore.jpeg',
-        url: ''
-    },
-    {
-        title: 'Đài Loan',
-        imgUrl: './imgs/index/tu-van-du-hoc-dai-loan.jpeg',
-        url: ''
-    },
-    {
-        title: 'Úc',
-        imgUrl: './imgs/index/',
-        url: ''
-    },
-    {
-        title: 'Canada',
-        imgUrl: './imgs/index/',
-        url: ''
-    },
-    {
-        title: 'Mỹ',
-        imgUrl: './imgs/index/',
-        url: ''
-    },
-    {
-        title: 'Du học nghề Đức',
-        imgUrl: './imgs/index/',
-        url: ''
-    },
-]
+// data
+import careerOpportunities from '../../data/careerOpportunities.json';
+import studyAbroad from '../../data/studyAbroad.json';
 
 function Home(props) {
     return (
         <>
             <ImgCard imgUrl='./imgs/index/slider.jpg' className='bg-top bg-no-repeat bg-cover w-full h-96' />
             <div className='text-center mt-7'>
-                <div className=' bg-gray-50 py-7 '>
+                <div id='xkld' className='bg-gray-50 py-7 '>
                     <Heading>CƠ HỘI VIỆC LÀM</Heading>
                     <Panel itemsList={careerOpportunities} className=' ' />
                 </div>
@@ -93,27 +33,6 @@ function Home(props) {
 }
 
 export default Home;
-
-function Heading({ children }) {
-    return (
-        <h2 className='font-semibold text-4xl text-main my-7'>{children}</h2>
-    )
-}
-
-function Panel({ itemsList, className, ...props }) {
-    return (
-        <div className='mx-4'>
-            <div className={`grid md:grid-cols-3 gap-5 container mx-auto ${className}`} {...props}>
-                {itemsList.map(e => {
-                    return <Link to={e.url} key={e.title}>
-                        <ImgCard imgUrl={e.imgUrl} className='bg-no-repeat bg-cover bg-center h-64 lg:h-96 rounded-md' />
-                        <p className='my-3'>{e.title}</p>
-                    </Link>
-                })}
-            </div>
-        </div>
-    )
-}
 
 function Introduce() {
     return (
