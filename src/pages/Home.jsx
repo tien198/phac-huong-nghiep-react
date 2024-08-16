@@ -4,8 +4,6 @@ import ImgCard from '../components/ImgCard';
 import FallingSnow from '../components/FallingSnow';
 import Heading from '../components/Heading';
 
-import { Link } from 'react-router-dom';
-
 // data
 import careerOpportunities from '../../data/careerOpportunities.json';
 import studyAbroad from '../../data/studyAbroad.json';

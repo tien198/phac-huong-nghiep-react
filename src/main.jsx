@@ -10,6 +10,11 @@ import Home from './pages/Home.jsx'
 import About from './pages/About.jsx'
 import CareerOpportunities from './pages/CareerOpportunities.jsx'
 import StudyAbroad from './pages/StudyAbroad.jsx'
+import ProgramsList from './pages/ProgramsList.jsx'
+
+// data
+import { lxProgramsLoader, lxProgramDetailLoader } from './ultilities/data.js'
+import ProgramDetail from './pages/ProgramDetail.jsx'
 
 const router = createBrowserRouter([
   {
@@ -31,7 +36,17 @@ const router = createBrowserRouter([
       {
         path: '/tu-van-du-hoc',
         element: <StudyAbroad />
-      }
+      },
+      {
+        path: '/co-hoi-viec-lam/:country',
+        element: <ProgramsList />,
+        loader: lxProgramsLoader
+      },
+      {
+        path: '/co-hoi-viec-lam/:country/:id',
+        element: <ProgramDetail />,
+        loader: lxProgramDetailLoader
+      },
     ],
   },
 ]);
