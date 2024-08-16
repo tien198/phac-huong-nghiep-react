@@ -12,17 +12,18 @@ function ProgramDetail(props) {
     useEffect(() => {
         if (htmlContents.current.childElementCount == 0)
             laborExport.htmlContents.forEach(i => {
-                htmlContents.current.insertAdjacentHTML('beforeend', laborExport.htmlContents);
+                htmlContents.current.insertAdjacentHTML('beforeend', i);
             })
     }, [])
 
     return (
         <>
             <ImgCard imgUrl={laborExport.imgBannerUrl} className='bg-top bg-no-repeat bg-cover w-full h-96' />
-            <HtmlContents className='flex flex-col gap-4 my-12'>
-                <h1 className='text-center font-semibold text-2xl uppercase'>{laborExport.program.title}</h1>
-                <div ref={htmlContents} >
-                </div>
+            <HtmlContents className='my-12' >
+                <h1 className='text-center font-semibold text-2xl uppercase mb-8'>{laborExport.program.title}</h1>
+                <article ref={htmlContents} className='flex flex-col gap-4 ' >
+
+                </article>
             </HtmlContents>
         </>
     );
