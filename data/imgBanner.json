@@ -2,5 +2,13 @@
     {
         "country": "han-quoc",
         "imgBannerUrl": ""
+    },
+    {
+        "country": "singapore",
+        "imgBannerUrl": ""
+    },
+    {
+        "country": "dai-loan",
+        "imgBannerUrl": ""
     }
 ]

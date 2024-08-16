@@ -16,18 +16,18 @@ export class ImgBanner {
     }
 }
 
-export class LaborExportProgramsList {
+export class ProgramsList {
     constructor(imgBannerUrl, country, programsList) {
         this.imgBannerUrl = imgBannerUrl
         this.country = country
         this.programs = programsList
     }
-    static convertToLaborExport(jsonObj) {
-        return new LaborExportProgramsList(jsonObj.imgBannerUrl, jsonObj.country, jsonObj.programs)
+    static convertFromObj(jsonObj) {
+        return new ProgramsList(jsonObj.imgBannerUrl, jsonObj.country, jsonObj.programs)
     }
 }
 
-export class LaborExportProgram {
+export class ProgramContents {
     constructor(imgBannerUrl, country, program, htmlContents) {
         this.imgBannerUrl = imgBannerUrl
         this.country = country
@@ -35,11 +35,11 @@ export class LaborExportProgram {
         this.htmlContents = htmlContents
     }
     static convertFromObj(obj) {
-        return new LaborExportProgram(obj.imgBannerUrl, obj.country, obj.program, obj.htmlContents)
+        return new ProgramContents(obj.imgBannerUrl, obj.country, obj.program, obj.htmlContents)
     }
 }
 
-export class LaborExportHtmlContents {
+export class HtmlContents {
     constructor(id, htmlContents) {
         this.id = id
         this.htmlContents = htmlContents

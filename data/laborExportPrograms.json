@@ -3,5 +3,25 @@
         "id": 1,
         "title": "Thông báo tuyển dụng việc làm ngắn hạn tại Hàn Quốc",
         "country": "han-quoc"
+    },
+    {
+        "id": 2,
+        "title": "Tuyển dụng E8 tại nhà máy kim chi Hàn Quốc (Hộ khẩu Cần Thơ)",
+        "country": "han-quoc"
+    },
+    {
+        "id": 3,
+        "title": "Tuyển dụng thợ sơn tại Hàn Quốc ",
+        "country": "han-quoc"
+    },
+    {
+        "id": 4,
+        "title": "Tuyển dụng cắt cỏ sân Golf tại Hàn Quốc",
+        "country": "han-quoc"
+    },
+    {
+        "id": 5,
+        "title": "",
+        "country": ""
     }
 ]

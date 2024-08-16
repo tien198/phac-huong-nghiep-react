@@ -2,7 +2,25 @@
     {
         "id": 1,
         "htmlContents": [
-            "<img src='../../imgs/korea/viec-lam-ngan-han--tai-han-quoc.jpg' alt='việc làm ngắn hạn tại Hàn Quốc' />"
+            "<img class='mx-auto' src='../../imgs/laborExportPrograms/korea/viec-lam-ngan-han--tai-han-quoc.jpg' alt='việc làm ngắn hạn tại Hàn Quốc' />"
+        ]
+    },
+    {
+        "id": 2,
+        "htmlContents": [
+            "<img class='mx-auto' src='../../imgs/laborExportPrograms/korea/viec-lam-E8-tai-nha-may-kim-chi-han-quoc.jpg' alt='Tuyển dụng E8 tại nhà máy kim chi Hàn Quốc' />"
+        ]
+    },
+    {
+        "id": 3,
+        "htmlContents": [
+            "<img class='mx-auto' src='../../imgs/laborExportPrograms/korea/tuyen-dung-tho-son-tai-han-quoc.jpeg' alt='Tuyển dụng thợ sơn tại Hàn Quốc' />"
+        ]
+    },
+    {
+        "id": 4,
+        "htmlContents": [
+            "<img class='mx-auto' src='../../imgs/laborExportPrograms/korea/tuyen-dung-cat-co-san-golf-tai-han-quoc.jpeg' alt='Tuyển dụng cắt cỏ sân Golf tại Hàn Quốc' />"
         ]
     }
 ]

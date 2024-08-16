@@ -50,9 +50,9 @@ function NavUl() {
     return (
         <ul className='hidden lg:flex flex-wrap justify-between content-center gap-8'>
             {navList.map((e, i) => {
-                const isActive = active === i ? true : false;
+                const isActive = active === e.li ? true : false;
                 return (
-                    <NavLi to={e.url} isActive={isActive} onClick={e => setActive(i)} key={e.li}>
+                    <NavLi to={e.url} isActive={isActive} onClick={ev => setActive(e.li)} key={e.li}>
                         {e.li}
                     </NavLi>)
             })}

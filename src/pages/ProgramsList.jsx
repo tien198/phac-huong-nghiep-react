@@ -4,11 +4,11 @@ import { Link, useLoaderData } from 'react-router-dom';
 import ImgCard from '../components/ImgCard';
 
 // OOP classes
-import { Program, LaborExportProgramsList } from '../models/LaborExprortProgram';
+import { ProgramsList as ProgrList } from '../models/Program';
 
 
-function ProgramsList({ ...props }) {
-    const lxList = LaborExportProgramsList.convertToLaborExport(useLoaderData());
+function ProgramsList({ kindOfProgram, ...props }) {
+    const lxList = ProgrList.convertFromObj(useLoaderData());
     const country = lxList.country;
     const laborExports = lxList.programs;
 
@@ -18,10 +18,12 @@ function ProgramsList({ ...props }) {
             <HtmlContents className='flex flex-col gap-4'>
                 <ul>
                     {laborExports.map(i =>
-                        <Link to={`/co-hoi-viec-lam/${country}/${i.id}`} key={i.id} >
-                            <li>{i.title}</li>
-                        </Link>)}
-
+                        <li className='my-4 hover:text-blue-700' key={i.id}>
+                            <Link to={`/${kindOfProgram}/${country}/${i.id}`}  >
+                                {i.title}
+                            </Link>
+                        </li>
+                    )}
                 </ul>
             </HtmlContents>
         </>

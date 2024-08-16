@@ -2,17 +2,17 @@
     {
         "title": "Hàn Quốc",
         "imgUrl": "./imgs/index/tu-van-du-hoc-han-quoc.jpeg",
-        "url": ""
+        "url": "/tu-van-du-hoc/han-quoc"
     },
     {
         "title": "Singapore",
         "imgUrl": "./imgs/index/tu-van-du-hoc-singapore.jpeg",
-        "url": ""
+        "url": "/tu-van-du-hoc/singapore"
     },
     {
         "title": "Đài Loan",
         "imgUrl": "./imgs/index/tu-van-du-hoc-dai-loan.jpeg",
-        "url": ""
+        "url": "/tu-van-du-hoc/dai-loan"
     },
     {
         "title": "Úc",
