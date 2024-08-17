@@ -1,10 +1,12 @@
 import React from 'react';
 
-function ImgCard({ imgUrl, width, height, repeat, bgSize, bgPosition, ...props }) {
+function ImgCard({ imgUrl, width, height, repeat, bgSize, bgPosition, className, ...props }) {
     return (
-        <div {...props} style={{
-            backgroundImage: `url(${imgUrl})`,
-        }} >
+        <div {...props}
+            className={className}
+            style={{
+                backgroundImage: `url(${imgUrl})`,
+            }} >
         </div>
     );
 }
