@@ -26,10 +26,42 @@ export default function createJSX(obj, elArr) {
 }
 
 function addJSX(obj, elArr) {
-    if (obj.component === 'ImgCard')
+    if (obj.component === 'ul')
+        elArr.push(createUl(obj))
+
+    else if (obj.component === 'ImgCard')
         elArr.push(createImgCard(obj))
+}
+
+function createUl(obj) {
+    const liArr = []
+    createJSX(obj.li, liArr)
+    return <ul>
+        {liArr}
+    </ul>
 }
 
 function createImgCard(obj) {
     return <ImgCard className={obj.className} imgUrl={obj.imgUrl} key={obj.imgUrl} />
+}
+
+class BaseComponent {
+    constructor(component, className) {
+        this.component = component
+        this.className = className
+    }
+}
+
+class Ul extends BaseComponent {
+    constructor(component, className, li) {
+        super(component, className)
+        this.li = li
+    }
+}
+
+class ImgCardRender extends BaseComponent {
+    constructor(component, className, imgUrl) {
+        super(component, className)
+        this.imgUrl = imgUrl
+    }
 }

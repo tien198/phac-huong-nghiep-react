@@ -19,9 +19,9 @@ function ProgramsList({ kindOfProgram, ...props }) {
                 <ul>
                     {laborExports.map(i =>
                         <li className='my-4 hover:text-blue-700' key={i.id}>
-                            <Link to={`/${kindOfProgram}/${country}/${i.id}`}  >
+                            <a href={`/${kindOfProgram}/${country}/${i.id}`}  >
                                 {i.title}
-                            </Link>
+                            </a>
                         </li>
                     )}
                 </ul>
