@@ -14,7 +14,7 @@ function ProgramsList({ kindOfProgram, ...props }) {
 
     return (
         <>
-            <ImgCard imgUrl={lxList.imgBannerUrl} className='bg-top bg-no-repeat bg-cover w-full h-96' />
+            <ImgCard imgUrl={lxList.imgBannerUrl} className='bg-center bg-no-repeat bg-cover w-full h-96' />
             <HtmlContents className='flex flex-col gap-4'>
                 <ul>
                     {laborExports.map(i =>
