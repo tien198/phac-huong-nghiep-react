@@ -2,11 +2,13 @@ import React from 'react';
 import Heading from '../components/Heading';
 import Panel from '../components/Panel';
 import ImgCard from '../components/ImgCard';
+import { useLoaderData } from 'react-router-dom';
 
 // data
-import studyAbroad from '../../data/studyAbroad.json';
+// import studyAbroad from '../../data/studyAbroad.json';
 
-function StudyAbroad(props) {
+function  StudyAbroad(props) {
+    const studyAbroad = useLoaderData()
     return (
         <>
             {/* <ImgCard imgUrl='./imgs/index/slider.jpg' className='bg-top bg-no-repeat bg-cover w-full h-96' /> */}

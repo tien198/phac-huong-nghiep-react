@@ -13,7 +13,7 @@ import StudyAbroad from './pages/StudyAbroad.jsx'
 import ProgramsList from './pages/ProgramsList.jsx'
 
 // data
-import { laborExportProgramsLoader, laborExportProgramDetailLoader, admissionsProgramsLoader, admissionnProgramDetailLoader } from './ultilities/data.js'
+import { laborExportProgramsLoader, laborExportProgramDetailLoader, admissionsProgramsLoader, admissionnProgramDetailLoader, homeLoader, careerOpportunities, studyAbroad } from './ultilities/data.js'
 import ProgramDetail from './pages/ProgramDetail.jsx'
 
 const router = createBrowserRouter([
@@ -24,6 +24,7 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
+        loader: homeLoader
       },
       {
         path: '/gioi-thieu',
@@ -31,11 +32,13 @@ const router = createBrowserRouter([
       },
       {
         path: '/co-hoi-viec-lam',
-        element: <CareerOpportunities />
+        element: <CareerOpportunities />,
+        loader: careerOpportunities
       },
       {
         path: '/tu-van-du-hoc',
-        element: <StudyAbroad />
+        element: <StudyAbroad />,
+        loader: studyAbroad
       },
       {
         path: '/co-hoi-viec-lam/:country',
@@ -50,12 +53,12 @@ const router = createBrowserRouter([
       {
         path: '/tu-van-du-hoc/:country',
         element: <ProgramsList kindOfProgram='tu-van-du-hoc' />,
-        loader: admissionsProgramsLoader
+        loader:  admissionsProgramsLoader
       },
       {
         path: '/tu-van-du-hoc/:country/:id',
         element: <ProgramDetail />,
-        loader: admissionnProgramDetailLoader
+        loader:  admissionnProgramDetailLoader
       },
     ],
   },

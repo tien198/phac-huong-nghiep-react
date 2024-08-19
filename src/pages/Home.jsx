@@ -3,12 +3,15 @@ import Panel from '../components/Panel';
 import ImgCard from '../components/ImgCard';
 import FallingSnow from '../components/FallingSnow';
 import Heading from '../components/Heading';
+import { useLoaderData } from 'react-router-dom';
 
 // data
-import careerOpportunities from '../../data/careerOpportunities.json';
-import studyAbroad from '../../data/studyAbroad.json';
+// import careerOpportunities from '../../data/careerOpportunities.json';
+// import studyAbroad from '../../data/studyAbroad.json';
 
 function Home(props) {
+    const {careerOpportunities, studyAbroad} = useLoaderData()
+
     return (
         <>
             <ImgCard imgUrl='./imgs/index/slider.jpg' className='bg-top bg-no-repeat bg-cover w-full h-96' />

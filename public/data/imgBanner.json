@@ -1,0 +1,18 @@
+[
+    {
+        "country": "han-quoc",
+        "imgBannerUrl": "../imgs/banners/korea-banner.png"
+    },
+    {
+        "country": "singapore",
+        "imgBannerUrl": "../imgs/banners/singpapore-banner.png"
+    },
+    {
+        "country": "dai-loan",
+        "imgBannerUrl": "../imgs/banners/taiwan-banner.png"
+    },
+    {
+        "country": "uc",
+        "imgBannerUrl": "../imgs/banners/australia-banner.png"
+    }
+]

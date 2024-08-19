@@ -20,7 +20,7 @@ function ProgramDetail(props) {
 
     return (
         <>
-            <ImgCard imgUrl={laborExport.imgBannerUrl} className='bg-top bg-no-repeat bg-cover w-full h-96' />
+            <ImgCard imgUrl={`../${laborExport.imgBannerUrl}`} className='bg-top bg-no-repeat bg-cover w-full h-96' />
             <HtmlContents className='my-12' >
                 <h1 className='text-center font-semibold text-2xl uppercase mb-8'>{laborExport.program.title}</h1>
                 <article className='flex flex-col gap-4 ' >
