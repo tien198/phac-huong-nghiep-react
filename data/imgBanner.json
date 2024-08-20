@@ -14,5 +14,9 @@
     {
         "country": "uc",
         "imgBannerUrl": "../imgs/banners/australia-banner.png"
+    },
+    {
+        "country": "nhat-ban",
+        "imgBannerUrl": "../imgs/banners/japan-banner.png"
     }
 ]

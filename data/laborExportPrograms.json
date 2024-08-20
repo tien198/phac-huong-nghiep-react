@@ -28,5 +28,15 @@
         "id": 6,
         "title": "Tuyển người làm farm tại Úc",
         "country": "uc"
+    },
+    {
+        "id": 7,
+        "title": "Tuyển dụng chế biến thực phẩm",
+        "country": "nhat-ban"
+    },
+    {
+        "id": 8,
+        "title": "Tuyển kỹ sư xây dựng",
+        "country": "nhat-ban"
     }
 ]
