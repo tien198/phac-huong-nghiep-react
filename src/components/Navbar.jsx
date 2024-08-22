@@ -21,7 +21,7 @@ const navList = [
     },
     {
         li: 'Tin tức',
-        url: '/'
+        url: '/tintuc'
     },
     {
         li: 'Liên hệ',

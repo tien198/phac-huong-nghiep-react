@@ -13,8 +13,10 @@ import StudyAbroad from './pages/StudyAbroad.jsx'
 import ProgramsList from './pages/ProgramsList.jsx'
 
 // data
-import { laborExportProgramsLoader, laborExportProgramDetailLoader, admissionsProgramsLoader, admissionnProgramDetailLoader } from './ultilities/data.js'
+import { laborExportProgramsLoader, laborExportProgramDetailLoader, admissionsProgramsLoader, admissionnProgramDetailLoader, newsListLoader, newDetail } from './ultilities/data.js'
 import ProgramDetail from './pages/ProgramDetail.jsx'
+import News from './pages/News.jsx'
+import NewDetail from './pages/NewDetail.jsx'
 
 const router = createBrowserRouter([
   {
@@ -24,6 +26,16 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
+      },
+      {
+        path: '/tintuc',
+        element: <News />,
+        loader: newsListLoader
+      },
+      {
+        path: '/tintuc/:id',
+        element: <NewDetail />,
+        loader: newDetail
       },
       {
         path: '/gioi-thieu',

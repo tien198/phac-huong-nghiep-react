@@ -8,6 +8,9 @@ import laborExportHtmlContents from '../../data/laborExportPrograms.htmlContents
 import admissions from '../../data/admissions.json'
 import admissionHtmlContents from '../../data/admissions.htmlContents.json'
 
+import news from '../../data/news.json';
+import newContents from '../../data/news.contents.json';
+
 import imgBannerUrl from '../../data/imgBanner.json';
 
 
@@ -52,4 +55,13 @@ export function admissionnProgramDetailLoader({ params }) {
     const htmlContents = admissionHtmlContents.find(i => i.id === Number(id)).htmlContents
     const lxp = new ProgramContents(imgBanner.imgBannerUrl, country, program, htmlContents)
     return lxp
+}
+
+export function newsListLoader() {
+    return news
+}
+
+export function newDetail({ params }) {
+    const id = params.id
+    return newContents.find(i => i.id === Number(id))
 }

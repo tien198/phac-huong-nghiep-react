@@ -1,0 +1,118 @@
+[
+    {
+        "id": 1,
+        "title": "9 BƯỚC TRONG QUY TRÌNH THAM GIA CHƯƠNG TRÌNH XKLĐ TẠI HÀN QUỐC (EPS) - E9",
+        "imgBannerUrl": "../imgs/banners/korea-banner.png",
+        "htmlContents": [
+            {
+                "component": "div",
+                "div": [
+                    "<h4 className='text-red-900' >Bước 1: Học tiếng Hàn EPS</h4>",
+                    "<p>Thời gian để học tiếng Hàn chuẩn bị cho kỳ thi EPS-TOPIK thông thường; kéo dài khoảng 4 tháng. Học viên sẽ được học tiếng Hàn theo Giáo trình EPS 60 bài. Giáo trình được thiết kế riêng dành cho những bạn có nguyện vọng đi Xuất khẩu lao động Hàn Quốc.</p>",
+                    "<p>Sau khi học hết kiến thức trong giáo trình; các học viên của chương trình này cũng cần phải luyện giải các đề thi EPS-TOPIK mẫu và đề thi các năm trước.</p>"
+                ],
+                "className": ""
+            },
+            {
+                "component": "div",
+                "div": [
+                    "<h4 className='text-red-900' >Bước 2: Nộp hồ sơ đăng ký dự tuyển xuất khẩu lao động EPS</h4>",
+                    "<p>Bộ Lao Động Thương Binh Xã Hội ( Bộ) sẽ thông báo lịch thi cho mình trước 1-2 tháng; để mình có thể đăng kí thi. Lệ phí đăng kí thi 24 USD</p>",
+                    "<p>Đăng kí tại địa phương nơi bạn đăng kí sổ hộ khẩu. Địa chỉ chính xác sẽ được thông báo cùng với thời gian đăng kí.</p>",
+                    "<p>Hồ sơ sẽ được hướng dẫn và đích thân lao động đi nộp, không có một trung tâm nào có thể đăng kí thay cho bạn được.</p>"
+                ],
+                "className": ""
+            },
+            {
+                "component": "div",
+                "div": [
+                    "<h4 className='text-red-900'>Bước 3: Tham dự kỳ thi Năng lực tiếng hàn EPS</h4>",
+                    "<p>Từ năm 2021, các bạn có thêm 1 khóa học giáo dục định hướng trước khi thi.</p>",
+                    "<p>Hàng năm thường có 1 đợt thi mới cho người đi XKLĐ lần đầu, và nhiều đợt cho những người đã đi xuất khẩu lao động về. Theo quy định hiện hành, người lao động có nguyện vọng đi làm việc tại Hàn Quốc theo chương trình cấp phép việc làm cho lao động nước ngoài của Hàn Quốc (EPS); cần phải tham dự và đạt yêu cầu thông qua kỳ thi tiếng Hàn (EPS-TOPIK); do Cơ quan Phát triển nguồn nhân lực Hàn Quốc tổ chức theo ủy quyền của Bộ Việc làm Lao động Hàn Quốc. Chỉ những người đã đạt yêu cầu qua kỳ thi tiếng Hàn EPS này; mới đủ điều kiện nộp hồ sơ đăng ký dự tuyển sang làm việc tại Hàn Quốc theo chương trình EPS.</p>",
+                    "<p>Kì thi EPS không phân theo cấp độ như TOPIK hay KLAT, mà sẽ lựa chọn theo nguyên tắc lấy từ người có điểm cao nhất xuống thấp dần trong số những người đạt từ 80 điểm trở lên (Tổng điểm tối đa: 200 điểm). Vì vậy quá trình học tiếng Hàn EPS cực kì quan trọng, các bạn hãy tập trung ôn luyện theo giáo trình này, đảm bảo là học gì thi nấy.</p>",
+                    "<p>Sau khi đậu kì thi năng lực tiếng, bạn sẽ được lựa chọn để thi tiếp vòng 2 – Vòng năng lực tay nghề.</p>"
+                ],
+                "className": ""
+            },
+            {
+                "component": "div",
+                "div": [
+                    "<h4 className='text-red-900'>Bước 4: Nhận kết quả</h4>",
+                    "<p>Sau khi thi xong, nếu các bạn đậu cả 2 vòng sẽ có hồ sơ trong website, các bạn theo dõi tiến độ hồ sơ theo website cho tới khi bạn được doanh nghiệp Hàn Quốc lựa chọn và ký hợp đồng, mình sẽ chuyển sang giai đoạn tiếp theo.</p>"
+                ],
+                "className": ""
+            },
+            {
+                "component": "div",
+                "div": [
+                    "<h4 className='text-red-900'>Bước 5: Ký quỹ tại ngân hàng chính sách xã hội</h4>",
+                    "<p>Bạn sẽ ký quỹ 100 triệu tại Ngân Hàng Chính Sách tại địa phương, nơi mình đăng kí sổ hộ khẩu.</p>"
+                ],
+                "className": ""
+            },
+            {
+                "component": "div",
+                "div": [
+                    "<h4 className='text-red-900'>Bước 6: Tham dự khóa bồi dưỡng kiến thức và xuất cảnh hàn quốc</h4>"
+                ],
+                "className": ""
+            },
+            {
+                "component": "div",
+                "div": [
+                    "<h4 className='text-red-900'>Bước 7: Tập kết tại Hà Nội, đóng tiền cho cơ quan chứ năng và xuất cảnh</h4>",
+                    "<p>Phí gồm: 630 USD (hồ sơ, lệ phí Visa , vé máy bay…), nộp tại Trung tâm việc làm nước ngoài (Số 1, Trịnh Hoài Đức, Đống Đa, Hà Nội). 500 USD chi phí bảo hiểm y tế, trong đó gồm có 50 USD – tiền bảo hiểm rủi ro, 450 USD – chi phí hồi hương nếu người lao động kết thúc hợp đồng đúng hạn thì số tiền này sẽ được nhận lại sau khi về Việt Nam.</p>    "
+                ],
+                "className": ""
+            },
+            {
+                "component": "div",
+                "div": [
+                    "<h4 className='text-red-900'>Bước 8: Thực hiện hợp đồng lao động tại Hàn quốc và về nước đúng hạn khi kết thúc hợp đồng</h4>"
+                ],
+                "className": ""
+            },
+            {
+                "component": "div",
+                "div": [
+                    "<h4 className='text-red-900'>Bước 9: Thanh lý hợp đồng và tất toán tài khoản ký quỹ.</h4>",
+                    "<p>Thời gian ký quỹ là 5 năm, cho nên sau khi kết thúc hợp đồng lao động 4 năm 10 tháng, bạn trở về nước một cách hợp pháp. Đợi thêm 2 tháng nữa thì có thể trên ngân hàng chính sách để nhận lại 100 triệu ký quỹ ban đầu</p>"
+                ],
+                "className": ""
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "20 CÂU HỎI HAY RA VÀ ĐÁP ÁN TRONG ĐỀ THI QUỐC TỊCH CANADA",
+        "imgBannerUrl": "../imgs/banners/",
+        "htmlContents": [
+            {
+                "component": "ul",
+                "li": [
+                    "<li><b className='text-red-900'>1-Canada sử dụng ngôn ngữ chính thức nào?</b><p>English & French</p></li>",
+                    "<li><b className='text-red-900'>2-Hãy mô tả quốc kỳ của Canada:</b><p>Hai sọc đỏ 2 hai bên, ở giữa nền trắng có lá phong đỏ</p></li>",
+                    "<li><b className='text-red-900'>3-Canada có bao nhiêu tỉnh bang và vùng lãnh thổ?</b><p>có 10 tỉnh bang và 3 vùng lãnh thổ. Gọi là vùng lãnh thổ vì nó không có chính quyền cai quản như Tỉnh bang, nên chính phủ liên bang Federal quản 3 vùng lãnh thổ đó luôn là: Northwest Territories, the Yukon and Nunavut</p></li>",
+                    "<li><b className='text-red-900'>4-Có bao nhiêu vùng miền ở Canada?</b><p>Năm vùng miền: The Atlantic Provinces (gồm đảo Hoàng Tử PEI, New Brunswick, Nova Scotia và Newfoundland), Central Canada (chỉ có 2 tỉnh lớn Ontario & Quebec), The Prairie (đọc là P-ré-ơ-rì) Đồng bằng Provinces (gồm 3 tỉnh Manitoba, Saskatchewan và Alberta), The West Coast (chỉ có 1 BC British Columbia), The Northern Territories (3 vùng lãnh thổ đã kể ở câu trên)</p></li>",
+                    "<li><b className='text-red-900'>5-Canada giáp mấy biển?</b><p>Ba biển: Thái Bình Dương bờ tây, Đại Tây Dương bờ đông và Bắc Băng Dương, vậy còn phía nam giáp cái gì? biên giới đường bộ với nước Mỹ dài nhất thế giới.</p></li>",
+                    "<li><b className='text-red-900'>6-Dân số Canada có khoảng bao nhiêu người?</b><p>Hơn 41 triệu người số liệu mới cập nhật năm 2024.</p></li>",
+                    "<li><b className='text-red-900'>7-Ai là thủ tướng của Canada và đảng cầm quyền?</b><p>Prime Minister (PM) Justin Trudeau thuộc đảng Liberal. Có 5 đảng được bầu vào quốc hội nhưng chỉ có 2 đảng lớn là Liberal (Tự Do giống đảng Dân Chủ của Mỹ) và Conservative (Đảng Bảo Thủ giống Cộng Hòa của Mỹ)</p></li>",
+                    "<li><b className='text-red-900'>8-Linh vật của Canada là con gì?</b><p>Hải ly, beaver. Ở Ottawa thủ đô có cái bánh BeaverTails hình dạng giống cái đuôi của con hải ly</p></li>",
+                    "<li><b className='text-red-900'>9-Thủ Đô Canada là gì và Quốc Ca của Canada tên gì?</b><p>Ottawa thuộc tỉnh Ontario, cách Toronto khoảng 5 tiếng lái xe, bài hát O Canada.</p></li>",
+                    "<li><b className='text-red-900'>10-Hãy kể 3 Trách nhiệm của một công dân Canada là gì?</b><p>Tuân thủ pháp luật, có trách nhiệm với bản thân và gia đình, phục vụ trong bồi thẩm đoàn khi có yêu cầu từ tòa án.</p></li>",
+                    "<li><b className='text-red-900'>11-Kể tên 2 Quyền tự do căn bản của Canada?</b><p>Tự do ngôn luận và Tự do tín ngưỡng</p></li>",
+                    "<li><b className='text-red-900'>12-Kể ra 3 bộ phận của Quốc hội?</b><p>Quốc vương, Hạ Nghị viện và Thượng Nghị viện</p></li>",
+                    "<li><b className='text-red-900'>13-Cho 1 ví dụ làm cách nào bạn giúp cộng đồng?</b><p>Làm tình nguyện viên ở Food bank, bệnh viện và các tổ chức cộng đồng</p></li>",
+                    "<li><b className='text-red-900'>14-Như thế nào là công bằng giữa nam và nữ?</b><p>Nam và Nữ phải được đối xử như nhau trước pháp luật.</p></li>",
+                    "<li><b className='text-red-900'>15-Ai có quyền đi bầu cử?</b><p>Công dân Canada đủ 18 tuổi có tên trong danh sách đi bầu.</p></li>",
+                    "<li><b className='text-red-900'>16-Một điều luật trước khi được Quốc hội thông qua áp dụng thì gọi là gì?</b><p>a Bill</p></li>",
+                    "<li><b className='text-red-900'>17-Công dân Canada thề trung thành với ai khi Tuyên thệ quốc tịch?</b><p>King Charles III</p></li>",
+                    "<li><b className='text-red-900'>18-Ai là người đứng đầu Canada?</b><p>King Charles III</p></li>",
+                    "<li><b className='text-red-900'>19-Kể tên 2 trách nhiệm của chính phủ Liên Bang?</b><p>Đối Ngoại và Quốc Phòng</p></li>",
+                    "<li><b className='text-red-900'>20-Kể tên 2 trách nhiệm của chính phủ Tỉnh Bang?</b><p>Giáo Dục và Y Tế</p></li>"
+                ],
+                "className": "flex flex-col gap-4 "
+            }
+        ]
+    }
+]

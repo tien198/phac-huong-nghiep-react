@@ -28,16 +28,26 @@ export default function createJSX(obj, elArr) {
 function addJSX(obj, elArr) {
     if (obj.component === 'ul')
         elArr.push(createUl(obj))
+    else if (obj.component === 'div')
+        elArr.push(createDiv(obj))
 
     else if (obj.component === 'ImgCard')
         elArr.push(createImgCard(obj))
 }
 
+function createDiv(obj) {
+    const divContents = []
+    createJSX(obj.div, divContents)
+    return <div className={obj.className}>
+        {divContents}
+    </div>
+}
+
 function createUl(obj) {
-    const liArr = []
-    createJSX(obj.li, liArr)
-    return <ul>
-        {liArr}
+    const liContents = []
+    createJSX(obj.li, liContents)
+    return <ul className={obj.className}>
+        {liContents}
     </ul>
 }
 

@@ -45,3 +45,15 @@ export class HtmlContents {
         this.htmlContents = htmlContents
     }
 }
+
+export class NewContents {
+    constructor(id, title, imgBannerUrl, htmlContents) {
+        this.id = id
+        this.title = title
+        this.imgBannerUrl = imgBannerUrl
+        this.htmlContents = htmlContents
+    }
+    static convertFromObj(obj) {
+        return new NewContents(obj.id, obj.title, obj.imgBannerUrl, obj.htmlContents)
+    }
+}
