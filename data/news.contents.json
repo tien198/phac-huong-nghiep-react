@@ -114,5 +114,13 @@
                 "className": "flex flex-col gap-4 "
             }
         ]
+    },
+    {
+        "id": 3,
+        "title": "Các quán quân đường lên đỉnh Olympia học ngành gì tại Úc? Cơ hội nghề nghiệp của họ ra sao?",
+        "imgBannerUrl": "../imgs/news/2024-Aug/3-quan-quan-olympia-nam-thu-9-2.png",
+        "htmlContents": [
+            ""
+        ]
     }
 ]
