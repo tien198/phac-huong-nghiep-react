@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
+import ImgCard from '../components/ImgCard';
 
 const introduce = [
     '<p>Tự hào là một đơn vị cung ứng nhân lực đáng tin cậy, được thành lập từ năm 2019, chúng tôi mang đến những cơ hội <strong>việc làm hấp dẫn</strong> trong và ngoài nước với mức <strong>đãi ngộ cao</strong> </p>',
@@ -34,6 +35,7 @@ const legalInfor = [
 function About(props) {
     return (
         <div >
+            <ImgCard imgUrl='./imgs/banners/main-banner.png' className='bg-center bg-no-repeat bg-cover w-full h-96' />
             <Link to='/'>
                 <Heading>Phác <span className=" text-main">Hướng nghiệp</span></Heading>
             </Link>

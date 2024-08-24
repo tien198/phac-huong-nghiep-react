@@ -11,7 +11,7 @@ import studyAbroad from '../../data/studyAbroad.json';
 function Home(props) {
     return (
         <>
-            <ImgCard imgUrl='./imgs/index/slider.jpg' className='bg-top bg-no-repeat bg-cover w-full h-96' />
+            <ImgCard imgUrl='./imgs/banners/main-banner.png' className='bg-center bg-no-repeat bg-cover w-full h-96' />
             <div className='text-center mt-7'>
                 <div id='xkld' className='bg-gray-50 py-7 '>
                     <Heading>CƠ HỘI VIỆC LÀM</Heading>
