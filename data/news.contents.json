@@ -120,7 +120,138 @@
         "title": "Các quán quân đường lên đỉnh Olympia học ngành gì tại Úc? Cơ hội nghề nghiệp của họ ra sao?",
         "imgBannerUrl": "../imgs/news/2024-Aug/3-quan-quan-olympia-nam-thu-9-2.png",
         "htmlContents": [
-            ""
+            [
+                "<p>Chúng ta cùng điểm lại</p>",
+                "<h4 className='font-semibold text-xl mt-8'>Trần Ngọc Minh</h4>",
+                "<p>Đây là quán quân đầu tiên của đường lên đỉnh Olympia là cựu học sinh trường THPT chuyên Nguyễn Bỉnh Khiêm, Vĩnh Long. Tốt nghiệp Đại học Kỹ thuật Swinburne (Australia) Ngọc Minh được trao học bổng từ cử nhân lên tiến sĩ với kết quả thuộc top 5% xuất sắc.</p>",
+                "<p>Cô làm việc cho một công ty nhà mạng di động hàng đầu tại xứ sở chuột túi vào tháng 7 năm 2013. Đặc biệt vào năm 2013 cô đã tiến hành lập gia đình.</p>",
+                "<img src='/imgs/news/2024-Aug/3-main.png' alt='quán quân đầu tiên của đường lên đỉnh Olympia' />"
+            ],
+            [
+                "<h4 className='font-semibold text-xl mt-8'>Phan Mạnh Tân</h4>",
+                "<p>Phan Mạnh Tân (THPT Năng khiếu Hà Tĩnh, tỉnh Hà Tĩnh) sau khi giành chức quán quân năm thứ 2 của Đường lên đỉnh Olympia đã lên đường du học Australia. Anh theo học PhD Software Engineering ở Đại học Kỹ thuật Swinburne .</p>",
+                "<p>Anh hoàn thành chương trình nghiên cứu sinh tiến sĩ sau 12 năm. Mạnh Tân tốt nghiệp và làm kiến trúc sư phần mềm ở công ty IBM, Melbourne, Australia đây là một tập đoàn công nghệ thông tin lớn trên thế giới.</p>"
+            ],
+            [
+                "<h4 className='font-semibold text-xl mt-8'>Lương Phương Thảo - quán quân đường lên đỉnh Olympia học trường gì tại Úc?</h4>",
+                "<p>Danh hiệu quán quân Olympia năm thứ 3 thuộc về đại diện trường THPT chuyên Nguyễn Bỉnh Khiêm, Vĩnh Long- Lương Phương Thảo. Cô đã chọn theo học ngành Kinh doanh quốc tế và Marketing thuộc Đại học Monash, Australia.</p>",
+                "<p>Tốt nghiệp thạc sĩ khi <strong>du học Úc</strong>, Thảo về nước làm việc cho một công ty quảng cáo tại Sài Gòn. Như vậy có thể nhận ra rằng từ trước đến nay đây là nhà vô định duy nhất trở về nước.</p>"
+            ],
+            "<h4 className='font-semibold text-xl mt-8'>Võ Văn Dũng</h4>",
+            "<p>Nhà vô địch năm 4 – tốt nghiệp ĐH Kỹ thuật Swinburne sau đó làm việc trong lĩnh vực kiểm toán tại Melbourne, Australia. Năm 2016 anh có bằng thạc sĩ về thuế. Sau cuộc thi Đường lên đỉnh Olympia, hình ảnh và thông tin của anh rất hiếm khi xuất hiện trên truyền thông.</p>",
+            [
+                "<h4 className='font-semibold text-xl mt-8'>Đỗ Lâm Hoàng</h4>",
+                "<p>Người vô địch Olympia năm thứ 5 là Đỗ Lâm Hoàng – cựu học sinh THPT Gò Vấp, TP.HCM. Anh theo học chuyên ngành ngành Kỹ sư công nghệ viễn thông và Internet tại Đại học Kỹ thuật Swinburne, Australia.</p>",
+                "<p>Lâm Hoàng tiến hành lập gia đình vào năm 2016 và làm chuyên viên mạng di động không dây tại Sở Giáo dục bang Victoria, Australia.</p>"
+            ],
+            [
+                "<h4 className='font-semibold text-xl mt-8'>Lê Vũ Hoàng</h4>",
+                "<p>Quán quân Olympia năm thứ 6 đại diện THPT Số 1 Bố Trạch, Quảng Bình – Lê Vũ Hoàng.  Anh đã để lại nhiều ấn tượng trong lòng khán giả về tấm gương vượt khó nhờ học giỏi. Vũ Hoàng theo học và hoàn thành chương trình tiến sĩ tại Đại học Swinburne, Australia.</p>",
+                "<p>Tháng 2/2013 anh lập gia đình và hiện đang có 2 con. Anh cũng chính là người sáng lập và giám đốc công nghệ của công ty VIoT.</p>",
+                "<img src='/imgs/news/2024-Aug/3-quan-quan-olympia-nam-thu-6.png' alt='Quán quân Olympia năm thứ 6 đại diện THPT Số 1 Bố Trạch, Quảng Bình – Lê Vũ Hoàng' />"
+            ],
+            [
+                "<h4 className='font-semibold text-xl mt-8'>Lê Viết Hà</h4>",
+                "<p>Lê Viết Hà (THPT chuyên Lê Khiết, Quảng Ngãi) sau khi giành vòng nguyệt quế chung kết Olympia năm thứ 7 đã lên đường sang Australia du học. Anh tốt nghiệp với 2 bằng cử nhân loại xuất sắc ngành công nghệ Robot và khoa học Máy tính từ Đại học Swinburne.</p>",
+                "<p>Viết Hà trở về Việt Nam từ tháng 12/2017, làm việc với vai trò cán bộ chịu trách nhiệm về các khoản đầu tư của một công ty lớn. Anh cũng đang hoàn thành chương trình thạc sĩ Quản trị Kinh doanh tại Đại học Deakin, Australia.</p>"
+            ],
+            [
+                "<h4 className='font-semibold text-xl mt-8'>Huỳnh Anh Vũ</h4>",
+                "<p>Huỳnh Anh Vũ  – là người thắng cuộc sau 53 trận của năm thứ 8 – đại diện THPT Tăng Bạt Hổ, Bình Định. Tốt nghiệp Đại học Kỹ thuật Swinburne, Anh Vũ là một trong hai sinh viên xuất sắc được giữ làm giảng viên ngành Kinh tế. Quán quân Olympia năm 8 cũng đã tiến hành sống và lập gia đình tại xứ sở chuột túi.</p>"
+            ],
+            [
+                "<h4 className='font-semibold text-xl mt-8'>Hồ Ngọc Hân</h4>",
+                "<p>Chiến thắng trong trận chung kết với 5 thí sinh tham gia, Hồ Ngọc Hân (THPT Quốc học Huế, Thừa Thiên – Huế) là thí sinh đã gây được ấn tượng mạnh với khán giả. Quán quân năm thứ 9 còn là thủ khoa Đại học Khoa học Tự nhiên – Đại học Quốc gia TP.HCM khối B. Hồ Ngọc Hân chọn học tiến sĩ tại Sydney, Australia để theo đuổi giấc mơ nghiên cứu khoa học.</p>",
+                "<img src='/imgs/news/2024-Aug/3-quan-quan-olympia-nam-thu-9.png' alt='' />"
+            ],
+            [
+                "<h4 className='font-semibold text-xl mt-8'>Phan Minh Đức</h4>",
+                "<p>Nhà vô địch đầu tiên đến từ Hà Nội – Phan Minh Đức (THPT chuyên Hà Nội – Amsterdam). Anh theo học ngành Kinh doanh tại Đại học Kỹ thuật Swinburne, Australia, các môn học của Đức đều đạt xuất sắc (từ 85-100/100 điểm) và giỏi (từ 75-85/100 điểm).</p>",
+                "<p>Quán quân Olympia năm 10 từ năm thứ 2 đại học đã được làm trợ giảng. Sau khi kết thúc chương trình cử nhân danh dự, anh được chuyển thẳng lên bậc tiến sĩ.</p>"
+            ],
+            [
+                "<h4 className='font-semibold text-xl mt-8'>Phạm Thị Ngọc Anh</h4>",
+                "<p>Sau Lương Phương Thảo và Trần Ngọc Minh Phạm Thị Ngọc Oanh (THPT Tiên Lãng, Hải Phòng) là cô gái thứ 3 trở thành nhà vô địch Olympia vào năm 11. Ngọc Oanh ở lại Australia làm việc sau khi tốt nghiệp ngành Thương mại Kế toán và Tài chính của Đại học Kỹ thuật Swinburne.</p>",
+                "<p>Cuối tháng 8 vừa qua, quán quân năm 11 khoe thi đậu cấp độ 3 của chương trình CFA (Chartered Financial Analyst) – phân tích đầu tư tài chính.</p>"
+            ],
+            [
+                "<h4 className='font-semibold text-xl mt-8'>Đặng Thái Hoàng</h4>",
+                "<p>Đặng Thái Hoàng là học sinh đầu tiên của trường THPT Hòn Gai, Quảng Ninh giành chức vô địch chương trình Đường lên đỉnh Olympia.</p>",
+                "<p>Đầu tháng 8/2013, anh trở thành sinh viên tại Đại học Kỹ thuật Swinburne, Australia ngành Kỹ sư Dân dụng. Thái Hoàng tốt nghiệp làm việc cho một công ty xây dựng ở tại Melbourne. Quán quân Olympia năm 12 còn ý định học lấy bằng tiến sĩ Kiến trúc. Đầu năm 2018, anh đã lập gia đình.</p>"
+            ],
+            [
+                "<h4 className='font-semibold text-xl mt-8'>Hoàng Thế Anh</h4>",
+                "<p>Tháng 7/2013, Hoàng Thế Anh – học sinh chuyên Toán của trường THPT chuyên Bắc Giang, Bắc Giang – chinh phục Đường lên đỉnh Olympia năm thứ 13 với 285 điểm. Thế Anh trở thành sinh viên chuyên ngành Viễn thông tại Đại học Kỹ thuật Swinburne, Australia từ năm 2014. Khi mới du học, 9X sống cùng gia đình Lê Vũ Hoàng – nhà vô địch năm thứ 6 – cùng các anh chị trong gia đình Olympia khác.</p>"
+            ],
+            [
+                "<h4 className='font-semibold text-xl mt-8'>Nguyễn Trọng Nhân</h4>",
+                "<p>Nguyễn Trọng Nhân, nhà vô địch năm thứ 14 là đại diện THPT chuyên Tiền Giang, Tiền Giang. Từ năm 2015, cậu <strong>du học Úc</strong> trở thành sinh viên Đại học Kỹ thuật Swinburne, chuyên ngành Kỹ sư phần mềm. Trọng Nhân bật mí Swinburne là trường có môi trường học tập hiện đại, thời gian biểu linh hoạt nên sinh viên lựa chọn lớp học theo nguyện vọng cá nhân.</p>"
+            ],
+            [
+                "<h4 className='font-semibold text-xl mt-8'>Văn Viết Đức</h4>",
+                "<p>Năm 2015, Văn Viết Đức ghi dấu ấn đầu tiên cho trường THPT Thị xã Quảng Trị nói riêng và tỉnh Quảng Trị nói chung khi chiến thắng trong trận chung kết tại sân chơi Olympia. Điều này càng đặc biệt hơn khi đây cũng là dịp trường tiến hành kỷ niệm 40 năm thành lập THPT Thị xã Quảng Trị. Viết Đức trở thành sinh viên ngành Kỹ sư Xây dựng từ năm 2016 tại Đại học Kỹ thuật Swinburne, Australia.</p>"
+            ],
+            [
+                "<h4 className='font-semibold text-xl mt-8'>Hồ Đắc Thanh Chương</h4>",
+                "<p>Sau Hồ Ngọc Hân nhà vô địch thứ 2 đến từ THPT Quốc học Huế, Thừa Thiên – Huế – quán quân Olympia năm 9, Hồ Đắc Thanh Chương. Hiện đây là chàng trai quán quân có điểm số cao nhất trong trận chung kết chương trình – 340 điểm.</p>",
+                "<p>Năm 2017, 9X dự thi THPT quốc gia đạt 62, 2 điểm với 7 môn. Từ đầu năm 2018, Thanh Chương sang Australia theo học tại Đại học Kỹ thuật Swinburne ngành Kỹ sư. Cậu cũng đăng ký tham gia hội sinh viên Việt ở Swinburne.</p>",
+                "<img src='/imgs/news/2024-Aug/3-quan-quan-olympia-nam-thu-9-2.png' alt='quán quân Olympia năm 9, Hồ Đắc Thanh Chương' />"
+            ],
+            [
+                "<h4 className='font-semibold text-xl mt-8'>Phan Đăng Nhật Minh</h4>",
+                "<p>Phan Đăng Nhật Minh (THPT Hải Lăng, Quảng Trị) ngoài danh hiệu quán quân, còn là “vua phá kỷ lục” của Đường lên đỉnh Olympia năm thứ 17. “Cậu bé Google” chọn học tại Đại học Kỹ thuật Swinburne, Australia ngành Hóa học để tiếp tục theo đuổi giấc mơ nghiên cứu khoa học. 10X dự định hoàn thành 3 năm học cử nhân tại Swinburne, sau đó học bằng thạc sĩ và tiến sĩ tại một quốc gia khác hoặc Australia.</p>"
+            ],
+            [
+                "<h4 className='font-semibold text-xl mt-8'>Nguyễn Hoàng Cường</h4>",
+                "<p>Năm 18, Nguyễn Hoàng Cường ngay từ cuộc thi tuần Olympia đã “gây bão” khi lập kỷ lục giành trọn 120 điểm Khởi động. Cậu là nam sinh thứ hai của THPT Hòn Gai, Quảng Ninh giành chiếc vòng nguyệt quế vinh quang ở trận chung kết năm.</p>",
+                "<p>Tại kỳ thi THPT quốc gia 2019, Hoàng Cường đạt tổng điểm 53, 4 cho 6 môn thi, trong đó, điểm Ngoại ngữ (tiếng Pháp) đạt 9, 8/10. Hoàng Cường hiện đang học tập tại Australia theo học bổng của chương trình Đường lên đỉnh Olympia tại Đại học Kỹ thuật Swinburne.</p>"
+            ],
+            [
+                "<h4 className='font-semibold text-xl mt-8'>Trần Thế Trung</h4>",
+                "<p>Vô địch năm thứ 19 là Trần Thế Trung đến từ trường THPT chuyên Phan Bội Châu. Trung là học sinh đầu tiên của trường mang về vòng nguyệt quế.</p>",
+                "<p>Trung cho biết sẽ tiếp tục trở về nhà, tập trung việc học để hoàn thành chương trình lớp 12 và kết thúc đời sinh viên với một kết quả thi đại  học tập tốt. Trung cũng chia sẻ với suất học bổng của chương trình sẽ cố gắng học tập tốt để chuẩn bị tốt nhất cho việc du học. Trung dự định sẽ du học ngành truyền thông hoặc thông tin nhưng hiện tại vẫn chưa có quyết định rõ ràng.</p>",
+                "<img src='/imgs/news/2024-Aug/3-quan-quan-olympia-nam-thu-19.png' alt='Vô địch năm thứ 19 là Trần Thế Trung đến từ trường THPT chuyên Phan Bội Châu' />"
+            ],
+            [
+                "<h4 className='font-semibold text-xl mt-8'>Nguyễn Thị Thu Hằng</h4>",
+                "<p>Là nữ sinh vô địch Đường lên đỉnh Olympia sau 9 năm đến từ THPT Kim Sơn A, Ninh Bình. Tạm thời Hằng chưa có ý định gì vì cần lại thời gian để cân bằng lại cuộc sống.</p>"
+            ],
+            [
+                "<h4 className='font-semibold text-xl mt-8'>Nguyễn Hoàng Khánh</h4>",
+                "<p>Là nhà vô địch Đường lên đỉnh Olympia năm thứ 21, đến từ Trường THPT Bạch Đằng tỉnh Quảng Ninh. Cậu là học sinh đầu tiên đem cầu truyền hình cũng như vòng nguyệt quế vinh quanh về cho ngôi trường bề dày lịch sử này.</p>"
+            ],
+            [
+                "<h4 className='font-semibold text-xl mt-8'>Đặng Lê Nguyên Vũ</h4>",
+                "<p>Vòng Chung kết Đường lên đỉnh Olympia 2022 vừa khép lại với giải thưởng cao nhất 40.000 USD thuộc về Đặng Lê Nguyên Vũ, học sinh Trường trung học phổ thông Bắc Duyên Hà (Thái Bình) với điểm số 205.</p>",
+                "<p>Nhà quán quân này sẽ lựa chọn học đại học ngành Khoa học máy tính tại Australia theo học bổng của chương trình Đường lên đỉnh Olympia.</p>",
+                "<img src='/imgs/news/2024-Aug/3-quan-quan-olympia-2022.png' alt='Quán quân đường lên đỉnh Olympia 2022 Đặng Lê Nguyên Vũ' />"
+            ],
+            [
+                "<h2 className='font-semibold text-xl mt-8 text-orange-800'>Quán quân đường lên đỉnh Olympia học trường gì tại Úc?</h2>",
+                "<p>Các trường đại học ở Úc mà các quán quân đường lên đỉnh Olympia theo học:</p>"
+            ],
+            [
+                "<h4 className='font-semibold text-xl mt-8'>Đại học Kỹ thuật Swinburne</h4>",
+                "<p>Trong số 19 nhà vô địch Olympia sang <strong>du học Úc</strong> thì có tới 18 người chọn học tại Đại học Kỹ thuật Swinburne. Đại học kỹ thuật Swinburne thành lập vào năm vào năm 1908 là một viện đại học công lập ở Melbourne, bang Victoria, Úc. </p>",
+                "<p>Trường hiện có 5 campus tại Melbourne: Lilydale, Prahran, Croydon, Hawthorn, Wantirna – và phân hiệu tại Sarawak, Malaysia.</p>",
+                "<p>Tính đến nay Swinburne đã có hơn 100 năm kinh nghiệm đào tạo, trường được xếp hạng 5 sao về chất lượng giảng dạy, kỹ năng đáp ứng toàn diện, kỹ năng chung và nền giáo dục toàn diện (Theo The Good Universities Guide).</p>",
+                "<p>Swinburne còn nằm trong hàng loạt các bảng xếp hạng như: Theo xếp hạng Học thuật các trường đại học trên thế giới – ARWU top 401-500 các trường đại học tốt nhất thế giới; theo The World University Ranking vị trí 74 trên 150 trường đại học hàng đầu thế giới dưới 50 tuổi.</p>",
+                "<p>Theo The World University Ranking top 100 của các trường đại học quốc tế hàng đầu trên thế giới.</p>",
+                "<p>Trường cam kết đào tạo sinh viên có đầy đủ kiến thức, kỹ năng với chất lượng giảng dạy cao.  Ngoài ra, sinh viên có cơ hội thực tập hưởng lương 6-12 tháng. Swinburne cũng đi tiên phong trong việc thực hiện phương pháp giảng dạy trực tuyến.</p>",
+                "<p>Các lĩnh vực đào tạo bao gồm: Tiếng Anh; Môi trường và tính bền vững; Điện ảnh và Truyền hình; Nghệ thuật và Khoa học xã hội; Hàng không; Kinh doanh và Quản trị; Thiết kế; Truyền thông Kỹ thuật số; Giáo dục; Kỹ thuật; Khoa học Sức khỏe;  Tâm lý học; Khoa học, Công nghệ thông tin; Luật; Truyền thông và Báo chí.</p>",
+                "<p>Đại học Công nghệ Swinburne được công nhận trên toàn thế giới về các sản phẩm nghiên cứu, chất lượng đào tạo của trường.</p>",
+                "<p>Năm 2018, trường đứng trong tốp 40 về ngành thiết kế và nghệ thuật. Theo Times Higher Education World University Rankings, trường hiện xếp thứ 32 về lĩnh vực Thiết kế & Nghệ thuật, top 200 về Truyền thông; Xây dựng dân dụng và Kết cấu, top 100 về Vật lý.</p>"
+            ],
+            [
+                "<h4 className='font-semibold text-xl mt-8'>Đại học Monash</h4>",
+                "<p>Trong tất cả các quán quân của đường lên đỉnh Olympia chỉ có duy nhất thí sinh Lương Phương Thảo, là quán quân năm thứ 3, cựu học sinh trường THPT chuyên Nguyễn Bỉnh Khiêm, Vĩnh Long chọn Đại học Monash.</p>",
+                "<p>Đại học Monash theo Bảng xếp hạng các trường đại học trên thế giới bậc sau đại học của Times, được xếp top 1% các đại học trên thế giới. Monash là trường trực thuộc Go8 – nhóm 8 trường đại học nghiên cứu, giảng dạy hàng đầu nước Úc và là đại học đầu tiên của bang Victoria.</p>",
+                "<p>Riêng khoa Kinh tế và Kinh Doanh ở Monash là khoa duy nhất thuộc nhóm G08 được công nhận bởi 3 tổ chức đánh giá chất lượng thế giới nổi tiếng (EQUIS, AACSB và AMBA).</p>",
+                "<p>Trải qua hơn 50 năm xây dựng, hình thành và phát triển, tới nay trường Monash đã đạt được rất nhiều thành tích đáng nể.</p>",
+                "<p>Monash là trường có quy mô lớn nhất ở Úc về đào tạo sinh viên sở tại và quốc tế. Đặc biệt, trường còn hiện diện trên 5 châu lục thông qua 6 khu học xá tại Úc, 1 trung tâm học thuật ở Ý (Monash University Prato Centre), ở Ấn Độ (The IITB-Monash Research Academy), 1 tại Malaysia, 1 ở Nam Phi (Monash South Africa) và Trung Quốc (The Southeast University-Monash University Joint Graduate School).</p>",
+                "<p>Monash giống như nhiều trường đại học khác tại Úc là một môi trường đa văn hóa với sinh viên quốc tế. Bởi thế dịch vụ hỗ trợ sinh viên quốc tế thường xuyên được trường chú trọng thông qua hoạt động ngoài trời, các hội thảo và dã ngoại, gặp gỡ với cán bộ tham vấn tâm lý.</p>"
+            ],
+            "<p className='mt-10'>Trên đây là giải đáp cho thắc mắc các quán quân đường lên đỉnh Olympia học trường gì tại Úc.</p>"
         ]
     }
 ]
