@@ -1,79 +1,79 @@
 [
     {
         "title": "Xuất khẩu lao động Hàn Quốc",
-        "imgUrl": "./imgs/index/xuat-khau-lao-dong-han-quoc.jpeg",
+        "imgPosterUrl": "./imgs/index/xuat-khau-lao-dong-han-quoc.jpeg",
         "country": "hàn-quốc",
         "type": "laborExport"
     },
     {
         "title": "Xuất khẩu lao động Nhật Bản",
-        "imgUrl": "./imgs/index/xuat-khau-lao-dong-nhat-ban.jpg",
+        "imgPosterUrl": "./imgs/index/xuat-khau-lao-dong-nhat-ban.jpg",
         "country": "nhật-bản",
         "type": "laborExport"
     },
     {
         "title": "Xuất khẩu lao động Đài Loan",
-        "imgUrl": "./imgs/index/xuat-khau-lao-dong-dai-loan.jpg",
+        "imgPosterUrl": "./imgs/index/xuat-khau-lao-dong-dai-loan.jpg",
         "country": "đài-loan",
         "type": "laborExport"
     },
     {
         "title": "Cơ hội việc làm Châu Âu",
-        "imgUrl": "./imgs/index/xuat-khau-lao-dong-chau-au.jpeg",
-        "country": "",
+        "imgPosterUrl": "./imgs/index/xuat-khau-lao-dong-chau-au.jpeg",
+        "country": "đức",
         "type": "laborExport"
     },
     {
         "title": "Cơ hội việc làm Singapore",
-        "imgUrl": "./imgs/index/tu-van-du-hoc-singapore.jpeg",
+        "imgPosterUrl": "./imgs/index/tu-van-du-hoc-singapore.jpeg",
         "country": "",
         "type": "laborExport"
     },
     {
         "title": "Cơ hội việc làm Úc",
-        "imgUrl": "./imgs/index/tu-van-du-hoc-uc.jpeg",
+        "imgPosterUrl": "./imgs/index/tu-van-du-hoc-uc.jpeg",
         "country": "úc",
         "type": "laborExport"
     },
     {
         "title": "Du học Hàn Quốc",
-        "imgUrl": "./imgs/index/tu-van-du-hoc-han-quoc.jpeg",
+        "imgPosterUrl": "./imgs/index/tu-van-du-hoc-han-quoc.jpeg",
         "country": "hàn-quốc",
         "type": "admission"
     },
     {
         "title": "Du học Singapore",
-        "imgUrl": "./imgs/index/tu-van-du-hoc-singapore.jpeg",
+        "imgPosterUrl": "./imgs/index/tu-van-du-hoc-singapore.jpeg",
         "country": "singapore",
         "type": "admission"
     },
     {
         "title": "Du học Đài Loan",
-        "imgUrl": "./imgs/index/tu-van-du-hoc-dai-loan.jpeg",
+        "imgPosterUrl": "./imgs/index/tu-van-du-hoc-dai-loan.jpeg",
         "country": "đài-loan",
         "type": "admission"
     },
     {
         "title": "Du học Úc",
-        "imgUrl": "./imgs/index/",
-        "country": "úc",
+        "imgPosterUrl": "./imgs/index/",
+        "country": "",
         "type": "admission"
     },
     {
         "title": "Du học Canada",
-        "imgUrl": "./imgs/index/",
-        "country": "canada",
+        "imgPosterUrl": "./imgs/index/",
+        "country": "",
         "type": "admission"
     },
     {
         "title": "Du học Mỹ",
-        "imgUrl": "./imgs/index/",
+        "imgPosterUrl": "./imgs/index/",
         "country": "",
         "type": "admission"
     },
     {
         "title": "Du học Du học nghề Đức",
-        "imgUrl": "./imgs/index/",
+        "imgPosterUrl": "./imgs/index/",
         "country": "",
         "type": "admission"
     }

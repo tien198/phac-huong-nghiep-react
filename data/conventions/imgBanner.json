@@ -18,5 +18,9 @@
     {
         "country": "nhật-bản",
         "imgBannerUrl": "../imgs/banners/japan-banner.png"
+    },
+    {
+        "country": "đức",
+        "imgBannerUrl": "../imgs/index/xuat-khau-lao-dong-chau-au.jpeg"
     }
 ]

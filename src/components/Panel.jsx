@@ -18,8 +18,9 @@ function Panel({ itemsList, urlPre, className, ...props }) {
         <div className='mx-4'>
             <div className={`grid md:grid-cols-3 gap-16 container mx-auto ${className}`} {...props}>
                 {itemsList.map(e => {
+                    if (e.country === '') return
                     return <Link to={`${url}/${e.country}`} key={e.title}>
-                        <ImgCard imgUrl={e.imgUrl} className='bg-no-repeat bg-cover bg-center h-64 lg:h-96 rounded-md' />
+                        <ImgCard imgUrl={e.imgPosterUrl} className='bg-no-repeat bg-cover bg-center h-64 lg:h-96 rounded-md' />
                         <p className='my-3'>{e.title}</p>
                     </Link>
                 })}
