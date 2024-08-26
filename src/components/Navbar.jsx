@@ -15,13 +15,13 @@ const navList = [
         li: 'Tư vấn du học',
         url: '/tu-van-du-hoc'
     },
-    {
-        li: 'Cơ hội tại Úc và Canada',
-        url: '/'
-    },
+    // {
+    //     li: 'Cơ hội tại Úc và Canada',
+    //     url: '/'
+    // },
     {
         li: 'Tin tức',
-        url: '/tintuc'
+        url: '/tin-tuc'
     },
     {
         li: 'Liên hệ',

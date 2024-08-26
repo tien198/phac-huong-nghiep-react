@@ -1,20 +1,130 @@
 [
     {
-        "id": 1,
+        "id": "9-BƯỚC-TRONG-QUY-TRÌNH-THAM-GIA-CHƯƠNG-TRÌNH-XKLĐ-TẠI-HÀN-QUỐC-(EPS)-E9",
         "title": "9 BƯỚC TRONG QUY TRÌNH THAM GIA CHƯƠNG TRÌNH XKLĐ TẠI HÀN QUỐC (EPS) - E9",
-        "imgUrl": "./imgs/",
+        "country": "",
+        "type": "news",
+        "imgPosterUrl": "./imgs/",
         "publishDate": "Thu Aug 22 2024 13:58:34 GMT+0700 (Indochina Time)"
     },
     {
-        "id": 2,
+        "id": "20-CÂU-HỎI-HAY-RA-VÀ-ĐÁP-ÁN-TRONG-ĐỀ-THI-QUỐC-TỊCH-CANADA",
         "title": "20 CÂU HỎI HAY RA VÀ ĐÁP ÁN TRONG ĐỀ THI QUỐC TỊCH CANADA",
-        "imgUrl": "./imgs/",
+        "country": "",
+        "type": "news",
+        "imgPosterUrl": "./imgs/",
         "publishDate": "Thu Aug 22 2024 13:58:34 GMT+0700 (Indochina Time)"
     },
     {
-        "id": 3,
+        "id": "Các-quán-quân-đường-lên-đỉnh-Olympia-học-ngành-gì-tại-Úc-Cơ-hội-nghề-nghiệp-của-họ-ra-sao",
         "title": "Các quán quân đường lên đỉnh Olympia học ngành gì tại Úc? Cơ hội nghề nghiệp của họ ra sao?",
-        "imgUrl": "./imgs/",
+        "country": "",
+        "type": "news",
+        "imgPosterUrl": "./imgs/",
         "publishDate": "Sat Aug 24 2024 10:37:43 GMT+0700 (Indochina Time)"
+    },
+    {
+        "id": "Du-học-Hàn-Quốc-Trường-Đại-học-Shinsung",
+        "title": "Du học Hàn Quốc - Trường Đại học Shinsung",
+        "country": "han-quoc",
+        "type": "admission",
+        "imgPosterUrl": "./imgs/",
+        "publishDate": "Thu Aug 22 2024 13:58:34 GMT+0700 (Indochina Time)"
+    },
+    {
+        "id": "Học-bổng-toàn-phần-du-học-cấp-3-Hàn-Quốc-Viện-đào-tạo-và-chuyển-giao-công-nghệ-V-Connect",
+        "title": "Học bổng toàn phần du học cấp 3 Hàn Quốc - Viện đào tạo và chuyển giao công nghệ V-Connect",
+        "country": "han-quoc",
+        "type": "admission",
+        "imgPosterUrl": "./imgs/",
+        "publishDate": "Thu Aug 22 2024 13:58:34 GMT+0700 (Indochina Time)"
+    },
+    {
+        "id": "Cao-đẳng-Công-Nghệ-Chosun-Viện-đào-tạo-và-chuyển-giao-công-nghệ-V-Connect",
+        "title": "Cao đẳng Công Nghệ Chosun - Viện đào tạo và chuyển giao công nghệ V-Connect",
+        "country": "han-quoc",
+        "type": "admission",
+        "imgPosterUrl": "./imgs/",
+        "publishDate": "Thu Aug 22 2024 13:58:34 GMT+0700 (Indochina Time)"
+    },
+    {
+        "id": "Chương-trình-du-học-nghê-quản-trị-nhà-hàng-khách-sạn",
+        "title": "Chương trình du học nghê quản trị nhà hàng, khách sạn",
+        "country": "singapore",
+        "type": "admission",
+        "imgPosterUrl": "./imgs/",
+        "publishDate": "Thu Aug 22 2024 13:58:34 GMT+0700 (Indochina Time)"
+    },
+    {
+        "id": "Học-bổng-toàn-phần-Đại-học-Minh-Truyền-Viện-đào-tạo-và-chuyển-giao-công-nghệ-V-Connect",
+        "title": "Học bổng toàn phần Đại học Minh Truyền - Viện đào tạo và chuyển giao công nghệ V-Connect",
+        "country": "dai-loan",
+        "type": "admission",
+        "imgPosterUrl": "./imgs/",
+        "publishDate": "Thu Aug 22 2024 13:58:34 GMT+0700 (Indochina Time)"
+    },
+    {
+        "id": "Thông-báo-tuyển-dụng-việc-làm-ngắn-hạn-tại-Hàn-Quốc",
+        "title": "Thông báo tuyển dụng việc làm ngắn hạn tại Hàn Quốc",
+        "country": "han-quoc",
+        "type": "labor-export",
+        "imgPosterUrl": "./imgs/",
+        "publishDate": "Thu Aug 22 2024 13:58:34 GMT+0700 (Indochina Time)"
+    },
+    {
+        "id": "Tuyển-dụng-E8-tại-nhà-máy-kim-chi-Hàn-Quốc-(Hộ-khẩu-Cần-Thơ)",
+        "title": "Tuyển dụng E8 tại nhà máy kim chi Hàn Quốc (Hộ khẩu Cần Thơ)",
+        "country": "han-quoc",
+        "type": "labor-export",
+        "imgPosterUrl": "./imgs/",
+        "publishDate": "Thu Aug 22 2024 13:58:34 GMT+0700 (Indochina Time)"
+    },
+    {
+        "id": "Tuyển-dụng-thợ-sơn-tại-Hàn-Quốc",
+        "title": "Tuyển dụng thợ sơn tại Hàn Quốc",
+        "country": "han-quoc",
+        "type": "labor-export",
+        "imgPosterUrl": "./imgs/",
+        "publishDate": "Thu Aug 22 2024 13:58:34 GMT+0700 (Indochina Time)"
+    },
+    {
+        "id": "Tuyển-dụng-cắt-cỏ-sân-Golf-tại-Hàn-Quốc",
+        "title": "Tuyển dụng cắt cỏ sân Golf tại Hàn Quốc",
+        "country": "han-quoc",
+        "type": "labor-export",
+        "imgPosterUrl": "./imgs/",
+        "publishDate": "Thu Aug 22 2024 13:58:34 GMT+0700 (Indochina Time)"
+    },
+    {
+        "id": "Chương-trình-định-cư-tại-Úc-theo-diện-đầu-tư",
+        "title": "Chương trình định cư tại Úc theo diện đầu tư",
+        "country": "uc",
+        "type": "labor-export",
+        "imgPosterUrl": "./imgs/",
+        "publishDate": "Thu Aug 22 2024 13:58:34 GMT+0700 (Indochina Time)"
+    },
+    {
+        "id": "Tuyển-người-làm-farm-tại-Úc",
+        "title": "Tuyển người làm farm tại Úc",
+        "country": "uc",
+        "type": "labor-export",
+        "imgPosterUrl": "./imgs/",
+        "publishDate": "Thu Aug 22 2024 13:58:34 GMT+0700 (Indochina Time)"
+    },
+    {
+        "id": "Tuyển-dụng-chế-biến-thực-phẩm",
+        "title": "Tuyển dụng chế biến thực phẩm",
+        "country": "nhat-ban",
+        "type": "labor-export",
+        "imgPosterUrl": "./imgs/",
+        "publishDate": "Thu Aug 22 2024 13:58:34 GMT+0700 (Indochina Time)"
+    },
+    {
+        "id": "Tuyển-kỹ-sư-xây-dựng",
+        "title": "Tuyển kỹ sư xây dựng",
+        "country": "nhat-ban",
+        "type": "labor-export",
+        "imgPosterUrl": "./imgs/",
+        "publishDate": "Thu Aug 22 2024 13:58:34 GMT+0700 (Indochina Time)"
     }
 ]

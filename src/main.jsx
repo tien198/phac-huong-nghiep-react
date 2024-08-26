@@ -6,17 +6,18 @@ import {
   RouterProvider,
 } from "react-router-dom"
 import './index.css'
+
+// components
 import Home from './pages/Home.jsx'
 import About from './pages/About.jsx'
 import CareerOpportunities from './pages/CareerOpportunities.jsx'
 import StudyAbroad from './pages/StudyAbroad.jsx'
 import ProgramsList from './pages/ProgramsList.jsx'
-
-// data
-import { laborExportProgramsLoader, laborExportProgramDetailLoader, admissionsProgramsLoader, admissionnProgramDetailLoader, newsListLoader, newDetail } from './ultilities/data.js'
 import ProgramDetail from './pages/ProgramDetail.jsx'
 import News from './pages/News.jsx'
-import NewDetail from './pages/NewDetail.jsx'
+
+// data
+import { programsLoader, programDetailLoader, newsListLoader } from './ultilities/data.js'
 
 const router = createBrowserRouter([
   {
@@ -28,18 +29,18 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: '/tintuc',
+        path: '/gioi-thieu',
+        element: <About />
+      },
+      {
+        path: '/tin-tuc',
         element: <News />,
         loader: newsListLoader
       },
       {
-        path: '/tintuc/:id',
-        element: <NewDetail />,
-        loader: newDetail
-      },
-      {
-        path: '/gioi-thieu',
-        element: <About />
+        path: '/tin-tuc/:id',
+        element: <ProgramDetail />,
+        loader: programDetailLoader
       },
       {
         path: '/co-hoi-viec-lam',
@@ -50,24 +51,19 @@ const router = createBrowserRouter([
         element: <StudyAbroad />
       },
       {
-        path: '/co-hoi-viec-lam/:country',
-        element: <ProgramsList kindOfProgram='co-hoi-viec-lam' />,
-        loader: laborExportProgramsLoader
+        path: '/:kindOfProgram/:country',
+        element: <ProgramsList />,
+        loader: programsLoader
       },
       {
-        path: '/co-hoi-viec-lam/:country/:id',
+        path: '/:kindOfProgram/:country/:id',
         element: <ProgramDetail />,
-        loader: laborExportProgramDetailLoader
+        loader: programDetailLoader
       },
       {
-        path: '/tu-van-du-hoc/:country',
-        element: <ProgramsList kindOfProgram='tu-van-du-hoc' />,
-        loader: admissionsProgramsLoader
-      },
-      {
-        path: '/tu-van-du-hoc/:country/:id',
+        path: '/:kindOfProgram/:id',
         element: <ProgramDetail />,
-        loader: admissionnProgramDetailLoader
+        loader: programDetailLoader
       },
     ],
   },

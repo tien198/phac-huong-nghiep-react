@@ -17,25 +17,23 @@ export class ImgBanner {
 }
 
 export class ProgramsList {
-    constructor(imgBannerUrl, country, programsList) {
+    constructor(imgBannerUrl, programsList) {
         this.imgBannerUrl = imgBannerUrl
-        this.country = country
         this.programs = programsList
     }
     static convertFromObj(jsonObj) {
-        return new ProgramsList(jsonObj.imgBannerUrl, jsonObj.country, jsonObj.programs)
+        return new ProgramsList(jsonObj.imgBannerUrl, jsonObj.programs)
     }
 }
 
 export class ProgramContents {
-    constructor(imgBannerUrl, country, program, htmlContents) {
+    constructor(imgBannerUrl, program, htmlContents) {
         this.imgBannerUrl = imgBannerUrl
-        this.country = country
         this.program = program
         this.htmlContents = htmlContents
     }
     static convertFromObj(obj) {
-        return new ProgramContents(obj.imgBannerUrl, obj.country, obj.program, obj.htmlContents)
+        return new ProgramContents(obj.imgBannerUrl, obj.program, obj.htmlContents)
     }
 }
 

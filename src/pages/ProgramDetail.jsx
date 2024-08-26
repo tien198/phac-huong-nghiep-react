@@ -11,18 +11,18 @@ import createJSX from '../ultilities/createJSX';
 
 
 function ProgramDetail(props) {
-    const laborExport = ProgramContents.convertFromObj(useLoaderData());
+    const program = ProgramContents.convertFromObj(useLoaderData());
 
     const contents = []
 
     // html-react-parser lead to key props error
-    createJSX(laborExport.htmlContents, contents)
+    createJSX(program.htmlContents, contents)
 
     return (
         <>
-            <ImgCard imgUrl={`../${laborExport.imgBannerUrl}`} className='bg-top bg-no-repeat bg-cover w-full h-96' />
+            <ImgCard imgUrl={`../${program.imgBannerUrl}`} className='bg-top bg-no-repeat bg-cover w-full h-96' />
             <HtmlContents className='my-12' >
-                <h1 className='text-center font-semibold text-2xl uppercase mb-8'>{laborExport.program.title}</h1>
+                <h1 className='text-center font-semibold text-2xl uppercase mb-8'>{program.program.title}</h1>
                 <article className='flex flex-col gap-4 ' >
                     {contents}
                 </article>

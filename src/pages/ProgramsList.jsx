@@ -1,16 +1,17 @@
 import React from 'react';
 import HtmlContents from '../components/HtmlContents';
-import { Link, useLoaderData } from 'react-router-dom';
+import { Link, useLoaderData, useParams } from 'react-router-dom';
 import ImgCard from '../components/ImgCard';
 
 // OOP classes
 import { ProgramsList as ProgrList } from '../models/Program';
 
 
-function ProgramsList({ kindOfProgram, ...props }) {
+function ProgramsList({ ...props }) {
     const lxList = ProgrList.convertFromObj(useLoaderData());
-    const country = lxList.country;
+    // const country = lxList.country;
     const laborExports = lxList.programs;
+    const { kindOfProgram, country } = useParams()
 
     return (
         <>

@@ -2,12 +2,8 @@ import React from 'react';
 import { Link, useLoaderData } from 'react-router-dom';
 
 import HtmlContents from '../components/HtmlContents'
-import Heading from '../components/Heading';
-import Panel from '../components/Panel';
 import ImgCard from '../components/ImgCard';
 
-// data
-import news from '../../data/news.json';
 
 function News(props) {
     const news = useLoaderData()
@@ -18,7 +14,7 @@ function News(props) {
                 <ul>
                     {news.map(i =>
                         <li className='my-4 hover:text-blue-700' key={i.id}>
-                            <Link to={`/tintuc/${i.id}`}  >
+                            <Link to={`/tin-tuc/${i.id}`}  >
                                 {i.title}
                             </Link>
                         </li>

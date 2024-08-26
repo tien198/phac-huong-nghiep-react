@@ -1,7 +1,6 @@
 [
     {
-        "id": 1,
-        "title": "9 BƯỚC TRONG QUY TRÌNH THAM GIA CHƯƠNG TRÌNH XKLĐ TẠI HÀN QUỐC (EPS) - E9",
+        "id": "9-BƯỚC-TRONG-QUY-TRÌNH-THAM-GIA-CHƯƠNG-TRÌNH-XKLĐ-TẠI-HÀN-QUỐC-(EPS)-E9",
         "imgBannerUrl": "../imgs/banners/korea-banner.png",
         "htmlContents": [
             {
@@ -83,8 +82,7 @@
         ]
     },
     {
-        "id": 2,
-        "title": "20 CÂU HỎI HAY RA VÀ ĐÁP ÁN TRONG ĐỀ THI QUỐC TỊCH CANADA",
+        "id": "20-CÂU-HỎI-HAY-RA-VÀ-ĐÁP-ÁN-TRONG-ĐỀ-THI-QUỐC-TỊCH-CANADA",
         "imgBannerUrl": "../imgs/banners/",
         "htmlContents": [
             {
@@ -116,8 +114,7 @@
         ]
     },
     {
-        "id": 3,
-        "title": "Các quán quân đường lên đỉnh Olympia học ngành gì tại Úc? Cơ hội nghề nghiệp của họ ra sao?",
+        "id": "Các-quán-quân-đường-lên-đỉnh-Olympia-học-ngành-gì-tại-Úc-Cơ-hội-nghề-nghiệp-của-họ-ra-sao",
         "imgBannerUrl": "../imgs/news/2024-Aug/3-quan-quan-olympia-nam-thu-9-2.png",
         "htmlContents": [
             [
@@ -252,6 +249,149 @@
                 "<p>Monash giống như nhiều trường đại học khác tại Úc là một môi trường đa văn hóa với sinh viên quốc tế. Bởi thế dịch vụ hỗ trợ sinh viên quốc tế thường xuyên được trường chú trọng thông qua hoạt động ngoài trời, các hội thảo và dã ngoại, gặp gỡ với cán bộ tham vấn tâm lý.</p>"
             ],
             "<p class='mt-10'>Trên đây là giải đáp cho thắc mắc các quán quân đường lên đỉnh Olympia học trường gì tại Úc.</p>"
+        ]
+    },
+    {
+        "id": "Du-học-Hàn-Quốc-Trường-Đại-học-Shinsung",
+        "imgBannerUrl": "../imgs/banners/korea-banner.png",
+        "htmlContents": [
+            "<img class='mx-auto' src='../../imgs/admissions/korea/dai-hoc-shinsung-visa-D4.jpg' alt='Du học Hàn Quốc - Trường Đại học Shinsung' />"
+        ]
+    },
+    {
+        "id": "Học-bổng-toàn-phần-du-học-cấp-3-Hàn-Quốc-Viện-đào-tạo-và-chuyển-giao-công-nghệ-V-Connect",
+        "imgBannerUrl": "../imgs/banners/korea-banner.png",
+        "htmlContents": [
+            "<img class='mx-auto' src='../../imgs/admissions/korea/hoc-bong-du-hoc-toan-phan-cap-3.jpg' alt='Học bổng toàn phần du học cấp 3 Hàn Quốc - Viện đào tạo và chuyển giao công nghệ V-Connect' />"
+        ]
+    },
+    {
+        "id": "Cao-đẳng-Công-Nghệ-Chosun-Viện-đào-tạo-và-chuyển-giao-công-nghệ-V-Connect",
+        "imgBannerUrl": "../imgs/banners/korea-banner.png",
+        "htmlContents": [
+            "<img class='mx-auto' src='../../imgs/admissions/korea/cao-dang-cong-nghe-chosun.jpg' alt='Cao đẳng Công Nghệ Chosun - Viện đào tạo và chuyển giao công nghệ V-Connect' />"
+        ]
+    },
+    {
+        "id": "Chương-trình-du-học-nghê-quản-trị-nhà-hàng-khách-sạn",
+        "imgBannerUrl": "../imgs/banners/singpapore-banner.png",
+        "htmlContents": [
+            "<img class='mx-auto' src='../../imgs/admissions/singapore/du-hoc-nghe-quan-tri-nha-hang-khach-san-singapore.jpg' alt='Chương trình du học nghê quản trị nhà hàng, khách sạn tại Singapore' />"
+        ]
+    },
+    {
+        "id": "Học-bổng-toàn-phần-Đại-học-Minh-Truyền-Viện-đào-tạo-và-chuyển-giao-công-nghệ-V-Connect",
+        "imgBannerUrl": "../imgs/banners/taiwan-banner.png",
+        "htmlContents": [
+            "<img class='mx-auto' src='../../imgs/admissions/taiwan/hoc-bong-toan-phan-dai-hoc-minh-truyen-dai-loan.jpg' alt='Học bổng toàn phần Đại học Minh Truyền - Đài Loan - Viện đào tạo và chuyển giao công nghệ V-Connect' />"
+        ]
+    },
+    {
+        "id": "Thông-báo-tuyển-dụng-việc-làm-ngắn-hạn-tại-Hàn-Quốc",
+        "imgBannerUrl": "../imgs/banners/korea-banner.png",
+        "htmlContents": [
+            "<img class='mx-auto' src='../../imgs/laborExportPrograms/korea/viec-lam-ngan-han--tai-han-quoc.jpg' alt='việc làm ngắn hạn tại Hàn Quốc' />"
+        ]
+    },
+    {
+        "id": "Tuyển-dụng-E8-tại-nhà-máy-kim-chi-Hàn-Quốc-(Hộ-khẩu-Cần-Thơ)",
+        "imgBannerUrl": "../imgs/banners/korea-banner.png",
+        "htmlContents": [
+            "<img class='mx-auto' src='../../imgs/laborExportPrograms/korea/viec-lam-E8-tai-nha-may-kim-chi-han-quoc.jpg' alt='Tuyển dụng E8 tại nhà máy kim chi Hàn Quốc' />"
+        ]
+    },
+    {
+        "id": "Tuyển-dụng-thợ-sơn-tại-Hàn-Quốc",
+        "imgBannerUrl": "../imgs/banners/korea-banner.png",
+        "htmlContents": [
+            "<img class='mx-auto' src='../../imgs/laborExportPrograms/korea/tuyen-dung-tho-son-tai-han-quoc.jpeg' alt='Tuyển dụng thợ sơn tại Hàn Quốc' />"
+        ]
+    },
+    {
+        "id": "Tuyển-dụng-cắt-cỏ-sân-Golf-tại-Hàn-Quốc",
+        "imgBannerUrl": "../imgs/banners/korea-banner.png",
+        "htmlContents": [
+            "<img class='mx-auto' src='../../imgs/laborExportPrograms/korea/tuyen-dung-cat-co-san-golf-tai-han-quoc.jpeg' alt='Tuyển dụng cắt cỏ sân Golf tại Hàn Quốc' />"
+        ]
+    },
+    {
+        "id": "Chương-trình-định-cư-tại-Úc-theo-diện-đầu-tư",
+        "imgBannerUrl": "../imgs/banners/australia-banner.png",
+        "htmlContents": [
+            "<p>Visa định cư Úc vĩnh viễn 888A khi đạt yêu cầu theo quy định. Xem đầy đủ Lộ trình lên quốc tịch Úc qua con đường đầu tư diện doanh nhân. (không cần đầu tư thêm) Vợ/chồng và con cái dưới 23 tuổi của đương đơn sẽ được cấp Visa đi cùng.</p>",
+            "<p><b>QUYỀN LỢI</b></p>",
+            {
+                "component": "ul",
+                "li": [
+                    "<li>Vợ/chồng và con cái dưới 23 tuổi của đương đơn sẽ được cấp Visa đi cùng</li>",
+                    "<li>Con cái được học miễn phí đến hết lớp 12 tại trường công lập.</li>",
+                    "<li>Được tự do đi lại giữa Việt Nam và Úc.</li>",
+                    "<li>Được cấp visa định cư Úc vĩnh viễn 888A trong tối thiểu 3 năm khi thỏa điều kiện về kinh doanh và cư</li>"
+                ],
+                "className": ""
+            },
+            "<ul></ul>",
+            "<p><b>ƯU ĐIỂM Visa Úc diện doanh nhân 188A</b></p>",
+            {
+                "component": "ul",
+                "li": [
+                    "<li>Tự sở hữu doanh nghiệp</li>",
+                    "<li>Có thể thành lập hoặc mua lại doanh nghiệp có sẵn</li>",
+                    "<li>Có khả năng sinh lời từ việc kinh doanh</li>",
+                    "<li>Mức đầu tư thấp nhất trong tất cả các chương trình đầu tư định cư Úc diện doanh nhân.</li>"
+                ],
+                "className": ""
+            },
+            "<p><b>ĐIỀU KIỆN Visa Úc diện doanh nhân 188A</b></p>",
+            {
+                "component": "ul",
+                "li": [
+                    "<li>18 – 55 tuổi</li>",
+                    "<li>Là chủ doanh nghiệp hoặc cổ đông góp vốn có tham gia quản lý công ty. Chứng minh có quá trình kinh doanh thành công tại Việt Nam </li>",
+                    "<li>Tổng giá trị tài sản đạt tối thiểu 1.250.000 AUD (~21,9 tỷ đồng).</li>",
+                    "<li>Đạt tối thiểu 65 điểm trong Thang điểm Di trú Úc.</li>",
+                    "<li>Được bảo lãnh bởi 1 trong các Tỉnh bang Úc.</li>",
+                    "<li>Yêu cầu về Công ty và kinh nghiệm kinh doanh tại Việt Nam</li><li>Sở hữu tối thiểu 30% vốn trong công ty và trực tiếp điều hành quản lý doanh nghiệp này trong tối thiểu 3 năm.</li><li>2 trong 4 năm tài chính gần nhất (tính đến ngày nộp đơn), doanh thu của công ty này đạt tối thiểu 750.000 AUD (~13,1 tỷ)/ năm.</li><li>Chứng minh có quá trình kinh doanh thành công tại Việt Nam.</li><li>Yêu cầu về Công ty và kinh nghiệm kinh doanh tại Úc</li><li>Sang Úc thành lập/ mua lại doanh nghiệp và trực tiếp điều hành quản lý doanh nghiệp. Sở hữu tối thiểu 30% vốn trong doanh nghiệp.</li><li>Hạn mức đầu tư từ 300.000 AUD (~4,9 tỷ đồng) (tùy bang).</li>"
+                ],
+                "className": ""
+            },
+            "<p><b>QUY TRÌNH</b></p>",
+            {
+                "component": "ul",
+                "li": [
+                    "<li>Bước 1: Thẩm định và chuẩn bị hồ sơ </li>",
+                    "<li>Bước 2: Nộp hồ sơ xin Bảo lãnh Bang</li>",
+                    "<li>Bước 3: Nộp hồ sơ xin visa 188A sau khi có Bảo lãnh Bang</li>",
+                    "<li>Bước 4: Hồ sơ xin visa được chấp thuận</li>",
+                    "<li>Bước 5: Khám sức khỏe</li>",
+                    "<li>Bước 6: Được cấp visa 188A</li>",
+                    "<li>Bước 7: Sang Úc tiến hành đầu tư kinh doanh</li>"
+                ],
+                "className": ""
+            },
+            "<b><i>Các vấn đề nhà đầu tư thường quan tâm. Một số thông tin chỉ chính xác tại thời điểm trả lời !</i></b>"
+        ]
+    },
+    {
+        "id": "Tuyển-người-làm-farm-tại-Úc",
+        "imgBannerUrl": "../imgs/banners/australia-banner.png",
+        "htmlContents": [
+            "<p><b>Điều kiện:</b> Từ 21 tuổi trở lên, sức khỏe tốt<br />Tùy theo từng điều kiện (trình độ ngoại ngữ, chuyên môn,...), sẽ tư vấn loại visa phù hợp<br /><b>Chế độ:</b> <br />Có hỗ trợ đưa đón sân bay, bố trí nơi ở trong farm đầy đủ tiện nghi theo tiêu chuẩn của Úc<br />Trả lương (theo giờ hoặc theo sản phẩm) đúng quy định của chính phủ Úc<br />Hỗ trợ và đồng hành với người lao động trong suốt quá trình làm việc tại Úc</p>",
+            "<div class='grid md:grid-cols-3 gap-6 text-center'><div><img src='../../imgs/laborExportPrograms/australia/hanh-trinh-farm-tai-uc.jpg' alt='hanh-trinh-farm-tai-uc-1inh-farm-tai-uc' /><p>Thu hoạch Mâm Xôi tại Coffs Harbour</p></div><div><img src='../../imgs/laborExportPrograms/australia/hanh-trinh-farm-tai-uc-1.jpg' alt='hanh-trinh-farm-tai-uc-1inh-farm-tai-uc' /><p>Thu hoạch Mâm Xôi tại Coffs Harbour</p></div><div><img src='../../imgs/laborExportPrograms/australia/hanh-trinh-farm-tai-uc-2.jpg' alt='hanh-trinh-farm-tai-uc-1inh-farm-tai-uc' /><p>Chăm sóc và cắt tỉa cây tại Melbourne</p></div><div><img src='../../imgs/laborExportPrograms/australia/hanh-trinh-farm-tai-uc-3.jpg' alt='hanh-trinh-farm-tai-uc-1inh-farm-tai-uc' /><p>Anh chủ farm vui tính dễ thương</p></div><div><img src='../../imgs/laborExportPrograms/australia/hanh-trinh-farm-tai-uc-4.jpg' alt='hanh-trinh-farm-tai-uc-1inh-farm-tai-uc' /><p>Thu hoạch dâu tây tại Perth - Tây Úc</p></div><div><img src='../../imgs/laborExportPrograms/australia/phan-loai-va-dong-hop-nong-san.jpg' alt='phan-loai-va-dong-hop-nong-san' /><p>Phân loại và đóng hộp nông sản tại farm ở Tây Úc</p></div></div>"
+        ]
+    },
+    {
+        "id": "Tuyển-dụng-chế-biến-thực-phẩm",
+        "imgBannerUrl": "../imgs/banners/japan-banner.png",
+        "htmlContents": [
+            "<img class='mx-auto' src='../../imgs/laborExportPrograms/japan/che-bien-thuc-pham.jpg' alt='Chế biến thực phẩm' />"
+        ]
+    },
+    {
+        "id": "Tuyển-kỹ-sư-xây-dựng",
+        "imgBannerUrl": "../imgs/banners/japan-banner.png",
+        "htmlContents": [
+            "<img class='mx-auto' src='../../imgs/laborExportPrograms/japan/ky-su-xay-dung.jpg' alt='Kỹ sư xây dựng' />"
         ]
     }
 ]
