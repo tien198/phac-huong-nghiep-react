@@ -25,9 +25,7 @@ function ProgramDetail(props) {
                 <h1 className='text-center font-semibold text-2xl uppercase mb-8'>{program.program.title}</h1>
                 <article className='flex flex-col gap-4 ' >
                     {contents}
-                    <video controls>
-                        <source src="/videos/laborExportPrograms/europe/germany/Phỏng-vấn-trước-học-tiếng-sau-10.9-kí-hợp-đồng-với-chủ-người-Đức.mp4" type="video/mp4" />
-                    </video>
+
                 </article>
             </HtmlContents>
         </>
