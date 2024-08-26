@@ -1,33 +1,18 @@
 import React, { useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import Logo from './Logo';
+import urlList from '../../data/conventions/urlList.json'
 
-const navList = [
-    {
-        li: 'Giới thiệu',
-        url: '/gioi-thieu'
-    },
-    {
-        li: 'Cơ hội việc làm',
-        url: '/co-hoi-viec-lam'
-    },
-    {
-        li: 'Tư vấn du học',
-        url: '/tu-van-du-hoc'
-    },
-    // {
-    //     li: 'Cơ hội tại Úc và Canada',
-    //     url: '/'
-    // },
-    {
-        li: 'Tin tức',
-        url: '/tin-tuc'
-    },
-    {
-        li: 'Liên hệ',
-        url: '/'
-    }
-]
+const navList = Object.keys(urlList).map(i => {
+    return urlList[i]
+})
+// const navList = [
+//     {
+//         li: 'Giới thiệu',
+//         url: '/gioi-thieu'
+//     },
+//      ...
+// ]
 function Navbar(props) {
     return (
         <nav className='shadow shadow-gray-800'>

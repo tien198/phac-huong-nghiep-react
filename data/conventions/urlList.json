@@ -1,0 +1,22 @@
+{
+    "about": {
+        "li": "Giới thiệu",
+        "url": "/giới-thiệu"
+    },
+    "laborExport": {
+        "li": "Cơ hội việc làm",
+        "url": "/cơ-hội-việc-làm"
+    },
+    "admission": {
+        "li": "Tư vấn du học",
+        "url": "/tư-vấn-du-học"
+    },
+    "news": {
+        "li": "Tin tức",
+        "url": "/tin-tức"
+    },
+    "contact": {
+        "li": "Liên hệ",
+        "url": "/"
+    }
+}

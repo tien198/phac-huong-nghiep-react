@@ -5,22 +5,25 @@ import FallingSnow from '../components/FallingSnow';
 import Heading from '../components/Heading';
 
 // data
-import careerOpportunities from '../../data/careerOpportunities.json';
-import studyAbroad from '../../data/studyAbroad.json';
+import programsCategory from '../../data/programsCategory.json';
+import programType from '../../data/conventions/programType.json';
+import { laborExport as laborExportURL, admission as admissionURL } from '../../data/conventions/urlList.json'
 
 function Home(props) {
+    const laborExport = programsCategory.filter(i => i.type === programType.laborExport)
+    const admission = programsCategory.filter(i => i.type === programType.admission)
     return (
         <>
             <ImgCard imgUrl='./imgs/banners/main-banner.png' className='bg-center bg-no-repeat bg-cover w-full h-96' />
             <div className='text-center mt-7'>
                 <div id='xkld' className='bg-gray-50 py-7 '>
                     <Heading>CƠ HỘI VIỆC LÀM</Heading>
-                    <Panel itemsList={careerOpportunities} className=' ' />
+                    <Panel itemsList={laborExport} urlPre={laborExportURL.url} className='' />
                 </div>
 
                 <div>
                     <Heading>CÁC CHƯƠNG TRÌNH DU HỌC VÀ HỌC BỔNG HẤP DẪN</Heading>
-                    <Panel itemsList={studyAbroad} />
+                    <Panel itemsList={admission} urlPre={admissionURL.url} />
                 </div>
                 <FallingSnow>
                     <Introduce />

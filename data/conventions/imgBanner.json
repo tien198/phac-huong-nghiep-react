@@ -1,6 +1,6 @@
 [
     {
-        "country": "han-quoc",
+        "country": "hàn-quốc",
         "imgBannerUrl": "../imgs/banners/korea-banner.png"
     },
     {
@@ -8,15 +8,15 @@
         "imgBannerUrl": "../imgs/banners/singpapore-banner.png"
     },
     {
-        "country": "dai-loan",
+        "country": "đài-loan",
         "imgBannerUrl": "../imgs/banners/taiwan-banner.png"
     },
     {
-        "country": "uc",
+        "country": "úc",
         "imgBannerUrl": "../imgs/banners/australia-banner.png"
     },
     {
-        "country": "nhat-ban",
+        "country": "nhật-bản",
         "imgBannerUrl": "../imgs/banners/japan-banner.png"
     }
 ]

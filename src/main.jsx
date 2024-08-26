@@ -10,13 +10,13 @@ import './index.css'
 // components
 import Home from './pages/Home.jsx'
 import About from './pages/About.jsx'
-import CareerOpportunities from './pages/CareerOpportunities.jsx'
-import StudyAbroad from './pages/StudyAbroad.jsx'
 import ProgramsList from './pages/ProgramsList.jsx'
 import ProgramDetail from './pages/ProgramDetail.jsx'
+import ProgramCategory from './pages/ProgramCategory'
 import News from './pages/News.jsx'
 
 // data
+import { about, laborExport, admission, news, contact } from '../data/conventions/urlList.json'
 import { programsLoader, programDetailLoader, newsListLoader } from './ultilities/data.js'
 
 const router = createBrowserRouter([
@@ -29,27 +29,27 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: '/gioi-thieu',
+        path: `/${about.url}`,
         element: <About />
       },
       {
-        path: '/tin-tuc',
+        path: `/${news.url}`,
         element: <News />,
         loader: newsListLoader
       },
       {
-        path: '/tin-tuc/:id',
+        path: `/${news.url}/:id`,
         element: <ProgramDetail />,
         loader: programDetailLoader
       },
       {
-        path: '/co-hoi-viec-lam',
-        element: <CareerOpportunities />
+        path: `/:kindOfProgram`,
+        element: <ProgramCategory />
       },
-      {
-        path: '/tu-van-du-hoc',
-        element: <StudyAbroad />
-      },
+      // {
+      //   path: `/${admission.url}`,
+      //   element: <StudyAbroad />
+      // },
       {
         path: '/:kindOfProgram/:country',
         element: <ProgramsList />,
