@@ -25,7 +25,7 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {
-        path: "/",
+        index: true,
         element: <Home />,
       },
       {
@@ -46,10 +46,6 @@ const router = createBrowserRouter([
         path: `/:kindOfProgram`,
         element: <ProgramCategory />
       },
-      // {
-      //   path: `/${admission.url}`,
-      //   element: <StudyAbroad />
-      // },
       {
         path: '/:kindOfProgram/:country',
         element: <ProgramsList />,
