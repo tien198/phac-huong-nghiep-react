@@ -38,9 +38,26 @@ export class ProgramContents {
 }
 
 export class HtmlContents {
-    constructor(id, htmlContents) {
+    constructor(id, htmlContents, imgBannerUrl) {
         this.id = id
+        this.imgBannerUrl = imgBannerUrl
         this.htmlContents = htmlContents
+    }
+}
+
+export class DivComponent {
+    constructor(component, div, className) {
+        this.component = component
+        this.div = div
+        this.className = className
+    }
+}
+
+export class UlComponent {
+    constructor(component, li, className) {
+        this.component = component
+        this.li = li
+        this.className = className
     }
 }
 
