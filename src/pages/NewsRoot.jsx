@@ -6,8 +6,9 @@ import { Outlet } from 'react-router-dom';
 function NewsRoot(props) {
     return (
         <>
-            <ImgCard imgUrl='./imgs/index/slider.jpg' className='bg-center bg-no-repeat bg-cover w-full h-96' />
+            {/* <ImgCard imgUrl='./imgs/index/slider.jpg' className='bg-center bg-no-repeat bg-cover w-full h-96' /> */}
             <Outlet />
+
         </>
     );
 }

@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React from 'react';
 import HtmlContents from '../components/HtmlContents';
 import { Link, useLoaderData } from 'react-router-dom';
 import ImgCard from '../components/ImgCard';
@@ -11,21 +11,19 @@ import createJSX from '../ulti/createJSX';
 
 
 function ProgramDetail(props) {
-    const program = useLoaderData();
+    const { htmlContents, imgBannerUrl, program } = useLoaderData();
 
     const contents = []
-
     // html-react-parser lead to key props error
-    createJSX(program.htmlContents, contents)
+    createJSX(htmlContents, contents)
 
     return (
         <>
-            <ImgCard imgUrl={`../${program.imgBannerUrl}`} className='bg-top bg-no-repeat bg-cover w-full h-96' />
+            <ImgCard imgUrl={`../${imgBannerUrl}`} className='bg-top bg-no-repeat bg-cover w-full h-96' />
             <HtmlContents className='my-12' >
-                <h1 className='text-center font-semibold text-2xl uppercase mb-8'>{program.program.title}</h1>
-                <article className='flex flex-col gap-4 ' >
+                <h1 className='text-center font-semibold text-2xl uppercase mb-8'>{program.title}</h1>
+                <article className='flex flex-col gap-7'>
                     {contents}
-
                 </article>
             </HtmlContents>
         </>

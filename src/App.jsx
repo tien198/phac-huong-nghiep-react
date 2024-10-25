@@ -40,7 +40,7 @@ const router = createBrowserRouter([
         element: <About />
       },
       {
-        path: news.url,
+        path: `/${news.url}`,
         element: <NewsRoot />,
         children: [
           {
@@ -49,7 +49,7 @@ const router = createBrowserRouter([
             loader: newsListLoader
           },
           {
-            path: `${news.url}/:id`,
+            path: ':id',
             element: <ProgramDetail />,
             loader: programDetailLoader
           },
