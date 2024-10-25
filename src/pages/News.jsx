@@ -28,6 +28,7 @@ export default News;
 
 
 export async function newsListLoader() {
-
-    return news
+    const response = await fetch('/data/news.json')
+    const data = await response.json()
+    return data
 }
