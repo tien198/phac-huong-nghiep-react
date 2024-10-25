@@ -38,7 +38,3 @@ export function programDetailLoader({ params }) {
     const contents = new ProgramContents(imgBannerUrl, program, htmlContents)
     return contents
 }
-
-export function newsListLoader() {
-    return news
-}

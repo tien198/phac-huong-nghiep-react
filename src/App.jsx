@@ -11,7 +11,7 @@ import About from './pages/About.jsx'
 import ProgramsList from './pages/ProgramsList.jsx'
 import ProgramDetail from './pages/ProgramDetail.jsx'
 import ProgramCategory from './pages/ProgramCategory'
-import News from './pages/News.jsx'
+import News, { newsListLoader } from './pages/News.jsx'
 
 // data
 import {
@@ -21,7 +21,8 @@ import {
   news,
   contact
 } from './ulti/convensions/urlList.json'
-import { programsLoader, programDetailLoader, newsListLoader } from './ulti/data.js'
+import { programsLoader, programDetailLoader } from './ulti/data.js'
+import NewsRoot from './pages/NewsRoot.jsx'
 
 
 
@@ -35,35 +36,41 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: `/${about.url}`,
+        path: about.url,
         element: <About />
       },
       {
-        path: `/${news.url}`,
-        element: <News />,
-        loader: newsListLoader
+        path: news.url,
+        element: <NewsRoot />,
+        children: [
+          {
+            index: true,
+            element: <News />,
+            loader: newsListLoader
+          },
+          {
+            path: `${news.url}/:id`,
+            element: <ProgramDetail />,
+            loader: programDetailLoader
+          },
+        ]
       },
       {
-        path: `/${news.url}/:id`,
-        element: <ProgramDetail />,
-        loader: programDetailLoader
-      },
-      {
-        path: `/:kindOfProgram`,
+        path: `:kindOfProgram`,
         element: <ProgramCategory />
       },
       {
-        path: '/:kindOfProgram/:country',
+        path: ':kindOfProgram/:country',
         element: <ProgramsList />,
         loader: programsLoader
       },
       {
-        path: '/:kindOfProgram/:country/:id',
+        path: ':kindOfProgram/:country/:id',
         element: <ProgramDetail />,
         loader: programDetailLoader
       },
       {
-        path: '/:kindOfProgram/:id',
+        path: ':kindOfProgram/:id',
         element: <ProgramDetail />,
         loader: programDetailLoader
       },

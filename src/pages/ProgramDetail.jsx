@@ -11,7 +11,7 @@ import createJSX from '../ulti/createJSX';
 
 
 function ProgramDetail(props) {
-    const program = ProgramContents.convertFromObj(useLoaderData());
+    const program = useLoaderData();
 
     const contents = []
 
