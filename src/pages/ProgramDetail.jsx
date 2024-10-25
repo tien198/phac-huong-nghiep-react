@@ -23,6 +23,7 @@ function ProgramDetail(props) {
             <HtmlContents className='my-12' >
                 <h1 className='text-center font-semibold text-2xl uppercase mb-8'>{program.title}</h1>
                 <article className='flex flex-col gap-7'>
+                    <span className='text-red-900'></span>
                     {contents}
                 </article>
             </HtmlContents>
