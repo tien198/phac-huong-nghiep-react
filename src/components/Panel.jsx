@@ -3,7 +3,7 @@ import { Link, useParams } from 'react-router-dom';
 import ImgCard from '../components/ImgCard';
 
 // data
-import { admission, laborExport } from '../../data/conventions/urlList.json'
+import { admission, laborExport } from '../../data/UI.layout/urlList.json'
 
 function Panel({ itemsList, urlPre, className, ...props }) {
     const { kindOfProgram } = useParams()

@@ -2,11 +2,15 @@
 import { ProgramsList, ProgramContents } from '../models/Program';
 
 // Data
-import { laborExport as laborExportURL, admission as admissionURL, news as newsURL } from '../../data/conventions/urlList.json'
+import {
+    laborExport as laborExportURL,
+    admission as admissionURL,
+    news as newsURL
+} from '../../data/UI.layout/urlList.json'
 import news from '../../data/news.json';
 import newContents from '../../data/news.contents.json';
 
-import imgBannerUrl from '../../data/conventions/imgBanner.json';
+import imgBannerUrl from '../../data/UI.layout/imgBanner.json';
 
 
 export function programsLoader({ params }) {
