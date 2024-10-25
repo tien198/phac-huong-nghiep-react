@@ -6,7 +6,7 @@ import {
     laborExport as laborExportURL,
     admission as admissionURL,
     news as newsURL
-} from '../../data/UI.layout/urlList.json'
+} from '../ulti/convensions/urlList.json'
 import news from '../../data/news.json';
 import newContents from '../../data/news.contents.json';
 
@@ -32,8 +32,6 @@ export function programsLoader({ params }) {
 }
 
 export function programDetailLoader({ params }) {
-    console.log(params);
-
     const { id } = params
     const program = news.find(i => i.id === id)
     const { imgBannerUrl, htmlContents } = newContents.find(i => i.id === id)

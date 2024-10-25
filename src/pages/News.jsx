@@ -5,7 +5,7 @@ import HtmlContents from '../components/HtmlContents'
 import ImgCard from '../components/ImgCard';
 
 // data
-import { news } from '../../data/UI.layout/urlList.json'
+import { news } from '../ulti/convensions/urlList.json'
 
 
 function News(props) {

@@ -7,7 +7,10 @@ import Heading from '../components/Heading';
 // data
 import programsCategory from '../../data/programsCategory.json';
 import programType from '../../data/UI.layout/programType.json';
-import { laborExport as laborExportURL, admission as admissionURL } from '../../data/UI.layout/urlList.json'
+import {
+    laborExport as laborExportURL,
+    admission as admissionURL
+} from '../ulti/convensions/urlList.json'
 
 function Home(props) {
     const laborExport = programsCategory.filter(i => i.type === programType.laborExport)

@@ -14,8 +14,14 @@ import ProgramCategory from './pages/ProgramCategory'
 import News from './pages/News.jsx'
 
 // data
-import { about, laborExport, admission, news, contact } from '../data/UI.layout/urlList.json'
-import { programsLoader, programDetailLoader, newsListLoader } from './ultilities/data.js'
+import {
+  about,
+  laborExport,
+  admission,
+  news,
+  contact
+} from './ulti/convensions/urlList.json'
+import { programsLoader, programDetailLoader, newsListLoader } from './ulti/data.js'
 
 
 

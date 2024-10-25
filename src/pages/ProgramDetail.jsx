@@ -7,7 +7,7 @@ import ImgCard from '../components/ImgCard';
 import { ProgramContents } from '../models/Program';
 
 // Ultilities
-import createJSX from '../ultilities/createJSX';
+import createJSX from '../ulti/createJSX';
 
 
 function ProgramDetail(props) {

@@ -54,24 +54,3 @@ function createUl(obj) {
 function createImgCard(obj) {
     return <ImgCard className={obj.className} imgUrl={obj.imgUrl} key={obj.imgUrl} />
 }
-
-class BaseComponent {
-    constructor(component, className) {
-        this.component = component
-        this.className = className
-    }
-}
-
-class Ul extends BaseComponent {
-    constructor(component, className, li) {
-        super(component, className)
-        this.li = li
-    }
-}
-
-class ImgCardRender extends BaseComponent {
-    constructor(component, className, imgUrl) {
-        super(component, className)
-        this.imgUrl = imgUrl
-    }
-}

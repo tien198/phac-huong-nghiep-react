@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import Logo from './Logo';
-import urlList from '../../data/UI.layout/urlList.json'
+import urlList from '../ulti/convensions/urlList.json'
 
 const navList = Object.keys(urlList).map(i => {
     return urlList[i]

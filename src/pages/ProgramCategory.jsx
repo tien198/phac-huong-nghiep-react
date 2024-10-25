@@ -6,7 +6,7 @@ import Panel from '../components/Panel';
 
 // data
 import programsCategory from '../../data/programsCategory.json';
-import { admission, laborExport } from '../../data/UI.layout/urlList.json'
+import { admission, laborExport } from '../ulti/convensions/urlList.json'
 import programType from '../../data/UI.layout/programType.json';
 
 export default function ProgramCategory(props) {
