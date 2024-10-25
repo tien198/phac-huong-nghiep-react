@@ -6,7 +6,7 @@ import Heading from '../components/Heading';
 
 // data
 import programsCategory from '../../data/programsCategory.json';
-import programType from '../../data/UI.layout/programType.json';
+import programType from '../ulti/convensions/programType.json';
 import {
     laborExport as laborExportURL,
     admission as admissionURL

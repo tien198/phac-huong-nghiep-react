@@ -7,7 +7,7 @@ import Panel from '../components/Panel';
 // data
 import programsCategory from '../../data/programsCategory.json';
 import { admission, laborExport } from '../ulti/convensions/urlList.json'
-import programType from '../../data/UI.layout/programType.json';
+import programType from '../ulti/convensions/programType.json';
 
 export default function ProgramCategory(props) {
     const { kindOfProgram } = useParams()
