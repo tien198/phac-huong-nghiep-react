@@ -4,11 +4,13 @@ import { Link, useLoaderData } from 'react-router-dom';
 import HtmlContents from '../components/HtmlContents'
 
 // data
-import { news } from '../ulti/convensions/urlList.json'
+import news from '../../data/news.json'
 
 
 function News(props) {
     const newsItem = useLoaderData()
+    console.log(newsItem);
+
     return (
         <HtmlContents className='flex flex-col gap-4'>
             <ul>
@@ -28,6 +30,5 @@ export default News;
 
 
 export async function newsListLoader() {
-
     return news
 }
