@@ -135,5 +135,29 @@
         "type": "labor-export",
         "imgPosterUrl": "./imgs/",
         "publishDate": "Mon Aug 26 2024 21:03:52 GMT+0700 (Indochina Time)"
+    },
+    {
+        "id": "Chuyển-đổi-bằng-ngành-thực-phẩm-tập-đoàn-Westfleicsh",
+        "title": "Chuyển đổi bằng ngành thực phẩm tập đoàn Westfleicsh",
+        "country": "đức",
+        "type": "admission",
+        "imgPosterUrl": "./imgs/laborExportPrograms/germany/Chuyển-đổi-bằng-ngành-thực-phẩm-tập-đoàn-Westfleicsh.jpg",
+        "publishDate": "Fri Oct 25 2024 19:00:02 GMT+0700 (Indochina Time)"
+    },
+    {
+        "id": "Chương-trình-định-cư-New-Zealand",
+        "title": "Chương trình định cư New Zealand",
+        "country": "New Zealand",
+        "type": "labor-export",
+        "imgPosterUrl": "./imgs/laborExportPrograms/new-zealand/Chương-trình-định-cư-New-Zealand.jpg",
+        "publishDate": "Fri Oct 25 2024 19:00:02 GMT+0700 (Indochina Time)"
+    },
+    {
+        "id": "Chương-trình-định-cư-New-Zealand",
+        "title": "Chương trình định cư New Zealand",
+        "country": "New Zealand",
+        "type": "labor-export",
+        "imgPosterUrl": "./imgs/laborExportPrograms/new-zealand/Chương-trình-định-cư-New-Zealand.jpg",
+        "publishDate": "Fri Oct 25 2024 19:00:02 GMT+0700 (Indochina Time)"
     }
 ]

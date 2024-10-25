@@ -61,6 +61,13 @@ export class UlComponent {
     }
 }
 
+export class ImgCardComponent {
+    constructor(imgUrl, className) {
+        this.imgUrl = imgUrl
+        this.className = className
+    }
+}
+
 export class NewContents {
     constructor(id, title, imgBannerUrl, htmlContents) {
         this.id = id

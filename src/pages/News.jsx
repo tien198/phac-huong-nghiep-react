@@ -16,7 +16,7 @@ function News(props) {
             <ul>
                 {newsItem.map(i =>
                     <li className='my-4 hover:text-blue-700' key={i.id}>
-                        <Link to={`${news.url}/${i.id}`}  >
+                        <Link to={`${i.id}`}  >
                             {i.title}
                         </Link>
                     </li>

@@ -401,5 +401,20 @@
             "<p class='text-center'>Nhanh tay đăng kí nhận ngay hợp đồng đi Đức nóng bỏng tayyyy 🇩🇪🇩🇪🇩🇪🇩🇪✈️✈️✈️</p>",
             "<video controls><source src='/videos/laborExportPrograms/europe/germany/Phỏng-vấn-trước-học-tiếng-sau-10.9-kí-hợp-đồng-với-chủ-người-Đức.mp4' type='video/mp4' /></video>"
         ]
+    },
+    {
+        "id": "Chuyển-đổi-bằng-ngành-thực-phẩm-tập-đoàn-Westfleicsh",
+        "imgBannerUrl": "../imgs/index/xuat-khau-lao-dong-chau-au.jpeg",
+        "htmlContents": [
+            "<img class='mx-auto' src='/imgs/laborExportPrograms/germany/Chuyển-đổi-bằng-ngành-thực-phẩm-tập-đoàn-Westfleicsh.jpg' alt='Chuyển-đổi-bằng-ngành-thực-phẩm-tập-đoàn-Westfleicsh' />"
+        ]
+    },
+    {
+        "id": "Chương-trình-định-cư-New-Zealand",
+        "imgBannerUrl": "../imgs/index/",
+        "htmlContents": [
+            "<img class='mx-auto' src='/imgs/laborExportPrograms/new-zealand/Chương-trình-định-cư-New-Zealand.jpg' alt='Chương-trình-định-cư-New-Zealand' />",
+            "<img class='mx-auto' src='/imgs/laborExportPrograms/new-zealand/Chương-trình-định-cư-New-Zealand-1.jpg' alt='Chương-trình-định-cư-New-Zealand' />"
+        ]
     }
 ]
